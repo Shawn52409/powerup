@@ -5,12 +5,7 @@ const bcrypt = require('bcrypt');
 const Order = require('./Order');
 
 const userSchema = new Schema({
-  firstName: {
-    type: String,
-    required: true,
-    trim: true
-  },
-  lastName: {
+  userName: {
     type: String,
     required: true,
     trim: true
@@ -25,7 +20,10 @@ const userSchema = new Schema({
     required: true,
     minlength: 5
   },
-  orders: [Order.schema]
+  favoriteGames: {
+    type: Array,
+    required: false,    
+  },
 });
 
 // set up pre-save middleware to create password
