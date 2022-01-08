@@ -21,7 +21,7 @@ const userSchema = new Schema({
     minlength: 5
   },
   favoriteGames: {
-    type: Array,
+    type: [String],
     required: false,    
   },
 });
