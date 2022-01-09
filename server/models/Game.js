@@ -13,28 +13,26 @@ const gameSchema = new Schema({
         required: false,
         trim: true
     },
-    publisher: {
-        type: String,
-        required: false,
-        trim: true
-    },
-    releaseDate: {
-        type: String,
-        required: false,
-        trim: true
-    },
-    esrbRating:{
-        type: String,
-        required: false,
-        trim: true
-    },  
-    likes:{
-        type: String,
-        required: false,
-        trim: true
-    },  
+    // publisher: {
+    //     type: String,
+    //     required: false,
+    //     trim: true
+    // },
+    // releaseDate: {
+    //     type: String,
+    //     required: false,
+    //     trim: true
+    // },
+    // esrbRating:{
+    //     type: String,
+    //     required: false,
+    //     trim: true
+    // },  
+    // likes:{
+    //     type: String,
+    //     required: false,
+    //     trim: true
+    // },  
 });
 
-const Game = mongoose.model('Game', gameSchema);
-
-module.exports = Game;
+module.exports = gameSchema;
