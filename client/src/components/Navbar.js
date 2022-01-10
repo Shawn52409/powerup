@@ -1,3 +1,5 @@
+import React from "react";
+
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
@@ -31,4 +33,4 @@ const Nav = () => {
 
 export default Nav;
 
-<nav className="navbar"></nav>;
+
