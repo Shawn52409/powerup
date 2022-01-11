@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="navbar">
       <ul className="nav nav-tabs">
         <li className="nav-item">
-          <NavLink className="nav-link" activeClassName="active" to="/login/">
+          <NavLink className="nav-link" activeClassName="active" to="/login">
             Login
           </NavLink>
         </li>
@@ -32,5 +32,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-
