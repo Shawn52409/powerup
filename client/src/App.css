@@ -1,14 +1,28 @@
 /* Homepage */
 
-.homepage {
+/* .homepage {
   background-color: black;
   color: white;
+} */
+
+.h1-custom {
+  font-size: 5rem;
+  color: aliceblue;
+  font-family: 'Press Start 2P', cursive, sans-serif;
 }
 
-h1 {
-  color: blue;
+.powerup-font{
+  font-family: 'Press Start 2P', cursive, sans-serif;
 }
 
-.login {
+.img-smaller{
+  max-height: 5rem;
+}
+
+/* .login {
   background-color: chartreuse;
 }
+
+.navbar-custom{
+  margin-left: auto;
+} */
