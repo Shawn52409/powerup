@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="container-fluid bg-dark justify-content-center align-items-center py-2">
-        <ul className="text-light navbar-custom nav justify-content-end">
+    <div className=" powerup-font container-fluid bg-danger justify-content-center align-items-center py-2">
+        <ul className="text-light navbar-custom nav justify-content-end py-2">
           <li className="nav-item">
             <NavLink className="nav-link text-light" activeClassName="active" to="/login/">
               Login

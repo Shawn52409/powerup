@@ -6,9 +6,13 @@
 } */
 
 .h1-custom {
-  font-size: 100px;
+  font-size: 5rem;
   color: aliceblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive, sans-serif;
+}
+
+.powerup-font{
+  font-family: 'Press Start 2P', cursive, sans-serif;
 }
 
 /* .login {
