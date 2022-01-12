@@ -6,9 +6,14 @@
 }
 
 h1 {
-  color: blue;
+  font-size: 1000px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .login {
   background-color: chartreuse;
+}
+
+.navbar-custom{
+  margin-left: auto;
 }
