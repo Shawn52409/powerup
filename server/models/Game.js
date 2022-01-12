@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+const { Schema, model } = require('mongoose');
 
-const { Schema } = mongoose;
+// const { Schema } = mongoose;
 
 const gameSchema = new Schema({
     gameName: {
@@ -13,26 +13,32 @@ const gameSchema = new Schema({
         required: false,
         trim: true
     },
-    // publisher: {
-    //     type: String,
-    //     required: false,
-    //     trim: true
-    // },
-    // releaseDate: {
-    //     type: String,
-    //     required: false,
-    //     trim: true
-    // },
-    // esrbRating:{
-    //     type: String,
-    //     required: false,
-    //     trim: true
-    // },  
-    // likes:{
-    //     type: String,
-    //     required: false,
-    //     trim: true
-    // },  
+    year: {
+        type: String,
+        required: false,
+        trim: true
+    },
+    genre: [
+        {
+            type: String,
+            required: false,
+            trim: true
+        },
+    ],
+    platform: [
+        {
+            type: String,
+            required: false,
+            trim: true,
+        },
+    ],      
+    description: {
+        type: String,
+        required: false,
+        trim: true
+    },  
 });
 
-module.exports = gameSchema;
+const Game = model('Game', gameSchema);
+
+module.exports = Game;
