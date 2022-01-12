@@ -1,19 +1,20 @@
 /* Homepage */
 
-.homepage {
+/* .homepage {
   background-color: black;
   color: white;
-}
+} */
 
-h1 {
-  font-size: 1000px;
+.h1-custom {
+  font-size: 100px;
+  color: aliceblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.login {
+/* .login {
   background-color: chartreuse;
 }
 
 .navbar-custom{
   margin-left: auto;
-}
+} */
