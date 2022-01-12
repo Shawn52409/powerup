@@ -83,7 +83,7 @@ const Signup = () => {
           required
         />
         <Form.Control.Feedback type="invalid">
-          Email is required!
+          {/* Email is required! */}
         </Form.Control.Feedback>
       </Form.Group>
       <Form.Group>
@@ -97,7 +97,7 @@ const Signup = () => {
           required
         />
         <Form.Control.Feedback type="invalid">
-          Password is required!
+          {/* Password is required! */}
         </Form.Control.Feedback>
       </Form.Group>
       <Button
