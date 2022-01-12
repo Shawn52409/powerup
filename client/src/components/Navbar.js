@@ -5,6 +5,7 @@ import questionBlock from './favicon-block.png'
 
 const Nav = () => {
   return (
+
     <div className=" powerup-font container-fluid bg-danger justify-content-center align-items-center py-2">
         <ul className="text-light navbar-custom nav justify-content-end py-2">
           <li className="nav-item">
@@ -34,9 +35,8 @@ const Nav = () => {
         <img className='text-center img-smaller' src={questionBlock}></img>
       </div>
     </div>
+
   );
 };
 
 export default Nav;
-
-

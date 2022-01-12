@@ -5,8 +5,11 @@ import ApolloClient from "apollo-boost";
 import SearchGames from "./pages/SearchGames";
 import SavedGames from "./pages/SavedGames";
 import Navbar from "./components/Navbar";
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+
+
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -30,6 +33,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={SearchGames} />
             <Route exact path="/saved" component={SavedGames} />
+            <Route exact path="/signup" component={Signup} />
+            <Route exact path="/login" component={Login} />
             <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
           </Switch>
         </>
