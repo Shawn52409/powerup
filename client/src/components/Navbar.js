@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import questionBlock from './favicon-block.png'
 
 
 const Nav = () => {
@@ -27,7 +28,11 @@ const Nav = () => {
             </NavLink>
           </li>
         </ul>
-      <h1 className="h1-custom px-4 me-5 text-center">Power Up</h1>
+      <div className="d-flex justify-content-center py-3">
+        <img className='text-center img-smaller' src={questionBlock}></img>
+        <h1 className="mx-4 h1-custom px-4 me-5 text-center">Power Up</h1>
+        <img className='text-center img-smaller' src={questionBlock}></img>
+      </div>
     </div>
   );
 };

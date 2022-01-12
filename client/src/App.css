@@ -15,6 +15,10 @@
   font-family: 'Press Start 2P', cursive, sans-serif;
 }
 
+.img-smaller{
+  max-height: 5rem;
+}
+
 /* .login {
   background-color: chartreuse;
 }
