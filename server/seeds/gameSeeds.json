@@ -585,7 +585,7 @@
   },
   {
     "gameName": "The Legend of Zelda: Ocarina of Time",
-    "cover": "The Legend of Zelda: Ocarina of Time",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.png",
     "year": "1998",
     "genre": ["Adventure", "Platform", "Puzzle", "Role-playing (RPG)"],
     "platform": ["Wii U", "Wii", "Nintendo 64"],
