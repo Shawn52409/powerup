@@ -3,7 +3,7 @@ import Auth from "../utils/auth";
 import { Form, Button, Alert } from "react-bootstrap";
 import { LOGIN_USER } from "../utils/mutations";
 import { useMutation } from "@apollo/react-hooks";
-import invaders from '../components/space-invaders.png'
+import invaders from "../components/space-invaders.png";
 
 const Login = () => {
   const [login, { error }] = useMutation(LOGIN_USER);
@@ -41,11 +41,11 @@ const Login = () => {
 
   return (
     <>
-      <Form 
-      noValidate 
-      validated={validated} 
-      onSubmit={handleFormSubmit}
-      className="container-fluid border my-5 p-4 w-50 bg-light"
+      <Form
+        noValidate
+        validated={validated}
+        onSubmit={handleFormSubmit}
+        className="container-fluid border my-5 p-4 w-50 bg-light"
       >
         <Alert
           dismissible
@@ -94,7 +94,11 @@ const Login = () => {
         {error && <div>Login failed</div>}
       </Form>
       <div className="container-fluid justify-content-center d-flex">
-        <img className="text-center img-smaller" src={invaders}></img>
+        <img
+          className="text-center img-smaller"
+          src={invaders}
+          alt="Space Invaders"
+        ></img>
       </div>
     </>
   );
