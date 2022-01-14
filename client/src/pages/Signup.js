@@ -3,6 +3,7 @@ import { Form, Button, Alert } from "react-bootstrap";
 import { ADD_USER } from "../utils/mutations";
 import { useMutation } from "@apollo/react-hooks";
 import Auth from "../utils/auth";
+import streetFighter from '../components/sf2.png'
 
 const Signup = () => {
   const [addUser, { error }] = useMutation(ADD_USER);
@@ -51,7 +52,13 @@ const Signup = () => {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
+    <>
+    <Form 
+    noValidate 
+    validated={validated} 
+    onSubmit={handleFormSubmit}
+    className="container-fluid border my-5 p-4 w-50 bg-light"
+    >
       {/* show alert if server response is bad */}
       <Alert
         dismissible
@@ -115,6 +122,10 @@ const Signup = () => {
       </Button>
       {error && <div>Sign up failed</div>}
     </Form>
+      <div className="container-fluid justify-content-center d-flex">
+        <img className="text-center border-danger border rounded-pill" src={streetFighter}></img>
+      </div>
+    </>
   );
 };
 
