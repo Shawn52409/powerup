@@ -21,17 +21,18 @@ const SearchGames = () => {
         {data.game.map((game) => {
           return (
             <Card key={game._id} border="dark">
+              <Card.Title className="text-center">{game.gameName}</Card.Title>
               {game.cover ? (
                 <Card.Img
                   src={game.cover}
                   alt={`The cover for ${game.gameName}`}
                   variant="top"
+                  style={{}}
                 />
               ) : null}
               <Card.Body>
-                <Card.Title>{game.gameName}</Card.Title>
-                <p className="small">Year: {game.year}</p>
-                <Card.Text>{game.description}</Card.Text>
+                {/* <p className="small">Year: {game.year}</p>
+                <Card.Text>{game.description}</Card.Text> */}
                 {/* {Auth.loggedIn() && (
                   <Button
                     disabled={savedGameIds?.some(
