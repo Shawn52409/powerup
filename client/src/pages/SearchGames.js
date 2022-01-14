@@ -10,27 +10,28 @@ const SearchGames = () => {
 
   if (error) return <div>something went wrong</div>;
   return (
-    <Container>
+    <Container fluid>
       <h2>
         
         {/* {searchedGames.length
           ? `Viewing ${searchedGames.length} results:`
           : "Search for a game to begin"} */}
       </h2>
-      <Row xs={2} md={4} lg={6} className="m-2" >
+      {/* <Row xs={2} md={4} lg={6} className='g-2'> */}
+      <div className="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
         {data.game.map((game) => {
           return (
             <Card key={game._id} border="dark" className="p-2">
               {game.cover ? (
-                <Card.Img
+                <Card.Img class
                 src={game.cover}
                 alt={`The cover for ${game.gameName}`}
                 variant="top"
                 style={{}}
                 />
                 ) : null}
-                <Card.Title className="text-center fs-6 fw-lighter">{game.gameName}</Card.Title>
-              <Card.Body>
+                <Card.Title className="text-center">{game.gameName}</Card.Title>
+              {/* <Card.Body> */}
                 {/* <p className="small">Year: {game.year}</p>
                 <Card.Text>{game.description}</Card.Text> */}
                 {/* {Auth.loggedIn() && (
@@ -48,11 +49,12 @@ const SearchGames = () => {
                       : "Save this Game!"}
                   </Button>
                 )} */}
-              </Card.Body>
+              {/* </Card.Body> */}
             </Card>
           );
         })}
-      </Row>
+        </div>
+      {/* </Row> */}
     </Container>
   );
 };
