@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { GET_ME, GET_ALL_GAMES, GET_GAME } from "../utils/queries";
-import { Container, CardColumns, Card, Button } from "react-bootstrap";
+import { Container, CardColumns, Card, Row, Button } from "react-bootstrap";
 
 const SearchGames = () => {
   const { loading, data, error } = useQuery(GET_ALL_GAMES);
@@ -12,24 +12,24 @@ const SearchGames = () => {
   return (
     <Container>
       <h2>
-        Search Bar
+        
         {/* {searchedGames.length
           ? `Viewing ${searchedGames.length} results:`
           : "Search for a game to begin"} */}
       </h2>
-      <CardColumns>
+      <Row xs={2} md={4} lg={6} className="m-2" >
         {data.game.map((game) => {
           return (
-            <Card key={game._id} border="dark">
-              <Card.Title className="text-center">{game.gameName}</Card.Title>
+            <Card key={game._id} border="dark" className="p-2">
               {game.cover ? (
                 <Card.Img
-                  src={game.cover}
-                  alt={`The cover for ${game.gameName}`}
-                  variant="top"
-                  style={{}}
+                src={game.cover}
+                alt={`The cover for ${game.gameName}`}
+                variant="top"
+                style={{}}
                 />
-              ) : null}
+                ) : null}
+                <Card.Title className="text-center fs-6 fw-lighter">{game.gameName}</Card.Title>
               <Card.Body>
                 {/* <p className="small">Year: {game.year}</p>
                 <Card.Text>{game.description}</Card.Text> */}
@@ -52,7 +52,7 @@ const SearchGames = () => {
             </Card>
           );
         })}
-      </CardColumns>
+      </Row>
     </Container>
   );
 };
