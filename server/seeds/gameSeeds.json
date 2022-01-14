@@ -4,7 +4,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vz8.png",
     "year": "2002",
     "genre": ["Adventure", "Puzzle"],
-    "platforms": ["Xbox One", "PlayStation 4", "Xbox 360", "Nintendo GameCube", "Wii", "PC (Microsoft Windows)", "Nintendo Switch", "PlayStation 3"],
+    "platform": ["Xbox One", "PlayStation 4", "Xbox 360", "Nintendo GameCube", "Wii", "PC (Microsoft Windows)", "Nintendo Switch", "PlayStation 3"],
     "description": "A survival horror game and remake of Resident Evil (1996) with updated game design and improved storytelling in which the player makes a choice of two military officials, Jill Valentine and Chris Redfield, and navigates an elaborate mansion inhabited by undead adversaries in order to get to the bottom of the mystery surrounding the mansion and the undead within."
   },
   {
@@ -12,7 +12,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2362.png",
     "year": "1985",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Nintendo 3DS", "Wii U", "Nintendo Entertainment System (NES)", "Wii", "Nintendo Switch"],
+    "platform": ["Nintendo 3DS", "Wii U", "Nintendo Entertainment System (NES)", "Wii", "Nintendo Switch"],
     "description": "A side scrolling 2D platformer and first entry in the Super Mario franchise, Super Mario Bros. follows Italian plumber Mario as he treks across many levels of platforming challenges featuring hostile enemies to rescue Princess Peach from the evil king Bowser."
   },
   {
@@ -20,7 +20,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y22.png",
     "year": "1993",
     "genre": ["Fighting"],
-    "platforms": ["Sega Genesis", "Sega Saturn", "Amiga", "Game Boy", "Sega 32X", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Sega Master System", "PlayStation", "Arcade", "PlayStation 3"],
+    "platform": ["Sega Genesis", "Sega Saturn", "Amiga", "Game Boy", "Sega 32X", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Sega Master System", "PlayStation", "Arcade", "PlayStation 3"],
     "description": "The Mortal Kombat fighters, plus several new ones, return for a tournament held by the evil Shang Tsung of the Outworld. The action is one-on-one as before, and famed for its high level of violence and blood (other than the sanitised Nintendo version). There are 5 difficulty levels and optional credits, as well as the usual two player mode including same character duels."
   },
   {
@@ -28,7 +28,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.png",
     "year": "2017",
     "genre": ["Adventure", "Role-playing (RPG)"],
-    "platforms": ["Wii U", "Nintendo Switch"],
+    "platform": ["Wii U", "Nintendo Switch"],
     "description": "In this 3D open-world entry in the Zelda series, Link is awakened from a deep slumber without his past memories in the post-apocalyptic Kingdom of Hyrule, and sets off on a journey to defeat the ancient evil Calamity Ganon. Link treks, climbs and glides through fields, forests and mountain ranges while meeting and helping friendly folk and defeating enemies in order to gather up the strength to face Ganon."
   },
   {
@@ -36,7 +36,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28p7.png",
     "year": "2008",
     "genre": ["Racing"],
-    "platforms": ["Xbox 360", "PlayStation 3"],
+    "platform": ["Xbox 360", "PlayStation 3"],
     "description": "Paradise's gameplay is set in the fictional 'Paradise City', an open world in which players can compete in several types of races."
   },
   {
@@ -44,7 +44,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voh.png",
     "year": "2011",
     "genre": ["Adventure", "Hack and slash/Beat 'em up"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "After the events of Batman: Arkham Asylum (2009), a section of the city of Gotham has been turned into a prison, designed to keep the scum of the city away from the people. Bruce Wayne protests this prison but is shortly kidnapped by the despicable Hugo Strange, thus having to face the city's most powerful villains as the Batman while trying to uncover Strange's plans."
 
   },
@@ -53,7 +53,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rpb.png",
     "year": "1991",
     "genre": ["Adventure", "Role-playing (RPG)"],
-    "platforms": ["Sega Genesis", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Sega Genesis", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "ToeJam & Earl is an early 1990s dungeon crawler for the Sega Genesis/MegaDrive. The game features two alien rappers, who have crash-landed on Earth and parodies 1980s urban culture. The game's design was heavily influenced by the role-playing video game Rogue, and took from it such features as the random generation of levels and items. Played from a 2D-top-down perspective the game contains both single-player and two-player cooperative modes. The latter displays a single screen when both characters are near each other, but splits it apart when they are not. Playing the game with two players reveals dialogue and jokes between the characters not heard in the single player game."
   },
   {
@@ -61,7 +61,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2v8g.png",
     "year": "1992",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Sega Genesis", "Nintendo 3DS", "Wii U", "Xbox 360", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Sega Genesis", "Nintendo 3DS", "Wii U", "Xbox 360", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Dr. Eggman (aka Dr. Robotnik) has returned, turning helpless animals into robots and forcing them to build his ultimate weapon, the Death Egg! But this time, Sonic has a friend that can help him: Tails! Find the 7 Chaos Emeralds and stop Dr. Robotnik's evil scheme!"
   },
   {
@@ -69,7 +69,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2bz8.png",
     "year": "1989",
     "genre": ["Hack and slash/Beat 'em up", "Platform"],
-    "platforms": ["Amstrad CPC", "Xbox 360", "Amiga", "ZX Spectrum", "PC DOS", "Commodore C64/128", "Atari ST/STE", "Arcade"],
+    "platform": ["Amstrad CPC", "Xbox 360", "Amiga", "ZX Spectrum", "PC DOS", "Commodore C64/128", "Atari ST/STE", "Arcade"],
     "description": "This is the original 4-Player Arcade release, not the NES Title. The player chooses from one of the four Ninja Turtles: Leonardo, Michelangelo, Donatello, and Raphael. After Shredder kidnaps the Turtles' friend April O'Neil and their mentor Splinter, they must give chase, save their comrades, and defeat the evil Shredder."
   },
   {
@@ -77,7 +77,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xeu.png",
     "year": "1983",
     "genre": ["Arcade", "Shooter"],
-    "platforms": ["Atari 8-bit", "BBC Microcomputer System", "Amstrad CPC", "Amiga", "Mac", "ZX Spectrum", "PC DOS", "Commodore C64/128", "Atari 5200", "ColecoVision", "Atari 2600", "Acorn Electron", "Atari ST/STE", "Arcade"],
+    "platform": ["Atari 8-bit", "BBC Microcomputer System", "Amstrad CPC", "Amiga", "Mac", "ZX Spectrum", "PC DOS", "Commodore C64/128", "Atari 5200", "ColecoVision", "Atari 2600", "Acorn Electron", "Atari ST/STE", "Arcade"],
     "description": "Star Wars is Atari Games' first-person shoot 'em up based around the original Star Wars film. You take on the role of Luke Skywalker, aiming to destroy the Death Star - which, as any fan knows, involves attacking the 'weak spot' near the exhaust. To even get to this you have to pass swarms of TIE Fighters. Complete the game and it loops back around at ever-increasing difficulty. The game uses vector graphics, which allow lots of action at high speed on comparatively slow systems."
   },
   {
@@ -85,7 +85,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2do7.png",
     "year": "1994",
     "genre": ["Arcade", "Sport"],
-    "platforms": ["Sega Genesis", "Sega Saturn", "Game Boy", "Sega 32X", "Atari Jaguar", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Sega Game Gear", "PlayStation", "Arcade"],
+    "platform": ["Sega Genesis", "Sega Saturn", "Game Boy", "Sega 32X", "Atari Jaguar", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Sega Game Gear", "PlayStation", "Arcade"],
     "description": "NBA JAM Tournament Edition brings you more senses-shattering slam dunking excitement than ever! More than twice as many NBA superstars, more than double the secret characters, Hot Spots, Super Jam Power-Ups, battery back-up and - OH MY - nine all-new rim-rattling slam dunks plus all the original jams! NBA JAM Tournament Edition... it's on FIRE!"
   },
   {
@@ -93,7 +93,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybl.png",
     "year": "1997",
     "genre": ["Shooter"],
-    "platforms": ["PlayStation", "Nintendo 64", "PC (Microsoft Windows)", "Zeebo"],
+    "platform": ["PlayStation", "Nintendo 64", "PC (Microsoft Windows)", "Zeebo"],
     "description": "Quake II is a first-person shooter video game developed by id Software and published by Activision. It is not a direct sequel to Quake, id decided to revert to an existing trademark when they were unable to agree on a new name that did not violate another company's trademark."
   },
   {
@@ -101,7 +101,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20mh.png",
     "year": "2019",
     "genre": ["Fighting"],
-    "platforms": ["Xbox One", "PlayStation 4", "PlayStation 5", "PC (Microsoft Windows)", "Nintendo Switch", "Xbox Series X|S", "Google Stadia"],
+    "platform": ["Xbox One", "PlayStation 4", "PlayStation 5", "PC (Microsoft Windows)", "Nintendo Switch", "Xbox Series X|S", "Google Stadia"],
     "description": "Mortal Kombat is back and better than ever in the next evolution of the iconic franchise. The all new Custom Character Variations give you unprecedented control of your fighters to make them your own. The new graphics engine showcases every skull-shattering, eye-popping moment, bringing you so close to the fight you can feel it. Featuring a roster of new and returning Klassic Fighters, Mortal Kombat's best-in-class cinematic story mode continues the epic saga over 25 years in the making."
   },
   {
@@ -109,7 +109,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28gi.png",
     "year": "2006",
     "genre": ["Shooter"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)"],
     "description": "A third-person tactical shooter from Epic, running on the Unreal Engine 3. Gears of War thrusts gamers into a deep and harrowing story of humankind's epic battle for survival against the Locust Horde, a nightmarish race of creatures that surface from the bowels of the planet."
   },
   {
@@ -117,7 +117,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xym.png",
     "year": "2017",
     "genre": ["Fighting"],
-    "platforms": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
+    "platform": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
     "description": "Power up and build the ultimate version of your favorite DC legends in INJUSTICE 2. With a massive selection of DC Super Heroes and Super-Villains, INJUSTICE 2 allows you to equip every iconic character with unique and powerful gear earned throughout the game. Experience an unprecedented level of control over how your favorite characters look, how they fight, and how they develop across a huge variety of game modes. This is your super Hero. Your Journey. Your Injustice."
   },
   {
@@ -125,7 +125,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w1t.png",
     "year": "1980",
     "genre": ["Arcade", "Puzzle", "Strategy"],
-    "platforms": ["Atari 8-bit", "Texas Instruments TI-99", "MSX, PC-8801", "Nintendo 3DS", "Wii U", "PlayStation 4", "Xbox 360", "Nintendo Entertainment System (NES)", "Game Boy", "ZX Spectrum", "PC DOS", "Neo Geo Pocket Color", "Wii", "Commodore C64/128", "Sega Game Gear", "Atari 5200", "Intellivision", "Sharp X1", "FM-7", "Commodore VIC-20", "Apple II", "Windows Phone", "Fairchild Channel F", "Legacy Cellphone", "PC-98", "NEC PC-6000 Series", "Arcade", "PC (Microsoft Windows)"],
+    "platform": ["Atari 8-bit", "Texas Instruments TI-99", "MSX, PC-8801", "Nintendo 3DS", "Wii U", "PlayStation 4", "Xbox 360", "Nintendo Entertainment System (NES)", "Game Boy", "ZX Spectrum", "PC DOS", "Neo Geo Pocket Color", "Wii", "Commodore C64/128", "Sega Game Gear", "Atari 5200", "Intellivision", "Sharp X1", "FM-7", "Commodore VIC-20", "Apple II", "Windows Phone", "Fairchild Channel F", "Legacy Cellphone", "PC-98", "NEC PC-6000 Series", "Arcade", "PC (Microsoft Windows)"],
     "description": "Pac-Man is an arcade game developed by Namco and first released in Japan on May 22, 1980. it is considered one of the classics of the medium, virtually synonymous with video games, and an icon of 1980s popular culture. The player controls Pac-Man through a maze, eating pac-dots (also called pellets or just dots). When all pac-dots are eaten, Pac-Man is taken to the next stage. Four enemies (Blinky, Pinky, Inky and Clyde) roam the maze, trying to catch Pac-Man. If an enemy touches Pac-Man, a life is lost and the Pac-Man itself withers and dies. When all lives have been lost, the game ends. Near the corners of the maze are four larger, flashing dots known as power pellets that provide Pac-Man with the temporary ability to eat the enemies. The enemies turn deep blue, reverse direction and usually move more slowly. When an enemy is eaten, its eyes remain and return to the center box where it is regenerated in its normal color. Blue enemies flash white to signal that they are about to become dangerous again and the length of time for which the enemies remain vulnerable varies from one stage to the next, generally becoming shorter as the game progresses."
   },
   {
@@ -133,7 +133,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2255.png",
     "year": "2018",
     "genre": ["Fighting"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "Legendary game worlds and fighters collide in the ultimate showdown—a new entry in the Super Smash Bros. series for the Nintendo Switch system! New fighters, like Inkling from the Splatoon series and Ridley from the Metroid series, make their Super Smash Bros. series debut alongside every Super Smash Bros. fighter in the series…EVER! Faster combat, new items, new attacks, new defensive options, and more will keep the battle raging whether you're at home or on the go."
   },
   {
@@ -141,7 +141,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1umj.png",
     "year": "2005",
     "genre": ["Adventure"],
-    "platforms": ["PlayStation 4", "PlayStation 2", "Xbox"],
+    "platform": ["PlayStation 4", "PlayStation 2", "Xbox"],
     "description": "This is your chance to experience the other side of an alien invasion. Take on the role of alien Cryptosporidium 137 and terrorize the people of Earth to harvest their DNA in the most brazen action-adventure you've ever played. Take over all of humanity using a variety of alien weaponry on land or in the air."
   },
   {
@@ -149,7 +149,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wko.png",
     "year": "2007",
     "genre": ["Shooter", "Simulator"],
-    "platforms": ["Xbox 360", "Mac", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "Mac", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Call of Duty 4: Modern Warfare differs from previous installments of the Call of Duty series. Previous Call of Duty games have a distinct three country-specific campaign style, while Call of Duty 4 has a more film-like plot with interlaced story lines from the perspectives of Sgt. Paul Jackson of the Marines 1st Force Recon and Sgt. 'Soap' MacTavish of the British 22nd SAS Regiment."
   },
   {
@@ -157,7 +157,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23jw.png",
     "year": "1988",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Nintendo 3DS", "Wii U", "Nintendo Entertainment System (NES)", "Wii"],
+    "platform": ["Nintendo 3DS", "Wii U", "Nintendo Entertainment System (NES)", "Wii"],
     "description": "Super Mario Bros. 3, the third entry in the Super Mario Bros. series and Super Mario franchise, sees Mario or Luigi navigate a nonlinear world map containing platforming levels and optional minigames and challenges. The game features more diverse movement options and new items alongside more complex level designs and boss battles."
   },
   {
@@ -165,7 +165,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h9s.png",
     "year": "2010",
     "genre": ["Racing"],
-    "platforms": ["Xbox 360", "iOS", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "iOS", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Feel the thrill of the chase and the rush of escape behind the wheels of the world's hottest high-performance cars in Need for Speed Hot Pursuit a heart-pumping, socially competitive racing experience."
   },
   {
@@ -173,7 +173,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21ro.png",
     "year": "2007",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Wii U", "Wii"],
+    "platform": ["Wii U", "Wii"],
     "description": "A 3D platformer and first Wii entry in the Super Mario franchise, Super Mario Galaxy sees Mario jump across planets and galaxies with varying items, enemies, geographies and gravity mechanics in order to reach his enemy Bowser, who has attacked the Mushroom Kingdom and hijacked Princess Peach's castle with her inside."
   },
   {
@@ -181,7 +181,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wk8.png",
     "year": "2005",
     "genre": ["Shooter"],
-    "platforms": ["Nintendo GameCube"],
+    "platform": ["Nintendo GameCube"],
     "description": "Resident Evil 4 is a 2005 survival horror video game published and developed by Capcom. It is the sixth installment of the Resident Evil series. It is an atmospheric survival horror game with inventive third-person shooting mechanics. Set six years after the events of Resident Evil 2 (1998), Resident Evil 4 follows Leon S. Kennedy, a former Raccoon City police officer sent to Spain on a secret mission to retrieve the president's daughter from the hands of a mysterious cult. During his mission, he is forced to battle a mind-controlling parasite and its dehumanized hosts."
   },
   {
@@ -189,7 +189,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2q8p.png",
     "year": "2009",
     "genre": ["Adventure", "Shooter"],
-    "platforms": ["PlayStation 2", "Xbox 360", "PlayStation Portable", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["PlayStation 2", "Xbox 360", "PlayStation Portable", "Wii", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "The Ghostbusters are back for an all new adventure. With Manhattan overrun again by supernatural creatures, gamers take the role of a new recruit joining the famous Ghostbusters team. Equipped with a variety of unique equipment and gadgets, players hunt, fight and wrangle a wide range of ghosts in an all-new battle to save New York City from its latest paranormal plague. Delivering a special gaming experience to the tremendous Ghostbusters fan base around the world, Ghostbusters: The Video Game features the original cast from Columbia Pictures' classic Ghostbusters films, including Bill Murray, Dan Aykroyd, Harold Ramis and Ernie Hudson - together again for the first time in over 20 years. Supporting the original Ghostbusters crew are the talents of Annie Potts, Brian Doyle Murray and William Atherton. Like the films before it, Ghostbusters: The Video Game is all-new classic adventure with Dan Aykroyd and Harold Ramis returning to the helm to script and create a new storyline that leads gamers through the trials and tribulations of the world's leading paranormal ghost busting team. Players experience a variety of frightening new ghosts, even some based on ideas from Aykroyd and Ramis that never made it into the original feature films."
   },
   {
@@ -197,7 +197,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co497q.png",
     "year": "1991",
     "genre": ["Hack and slash/Beat 'em up"],
-    "platforms": ["Xbox 360", "PC DOS", "Commodore C64/128", "Arcade", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC DOS", "Commodore C64/128", "Arcade", "PlayStation 3"],
     "description": "The Simpsons is basically a side-scrolling beat-em-up featuring the characters from The Simpsons TV show. The player can choose to play as each of the four Simpson characters. Homer, who punches and kicks; Marge, who swings her vacuum cleaner; Bart, who wields his skateboard; and Lisa, who uses a jump rope as a whip. Other weapons such as hammers and bowling balls are also available to use. The game's levels are Downtown Springfield, Krustyland, Springfield Discount Cemetery, Moe's Tavern, Springfield Gorge, Dreamland, the Channel 6 studio, and the Power Plant. Each level ends with a boss whose speed and strength will increase after taking a certain amount of damage. Between levels, the player can compete against the other characters in two mini-games to be first to complete a task (inflating a balloon and waking up their character)."
   },
   {
@@ -205,7 +205,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/liyusdwuyjdpv3cgorkv.png",
     "year": "1991",
     "genre": ["Arcade, Shooter"],
-    "platforms": ["Sega Genesis", "Amiga", "Game Boy", "Super Nintendo Entertainment System (SNES)", "Arcade"],
+    "platform": ["Sega Genesis", "Amiga", "Game Boy", "Super Nintendo Entertainment System (SNES)", "Arcade"],
     "description": "A rail-shooter based on the film Terminator 2: Judgement Day. Up to two players shoot through future and present levels as robotic killers reprogrammed to serve the human resistance. Both players wield a machine gun with infinite ammo that lowers its firing rate (overheats) as it is continuously fired. A secondary weapon (missile launchers in the future, shotguns in the present) has limited ammo but deals heavy damage. Powerups inside the game world include secondary weapon ammo and coolant for the machine guns, and are shot to be collected. T2: The Arcade Game features seven levels based on specific scenes or general concepts in the film. The first four levels act as a prelude, as the player guns down waves of metal Terminators across a post-apocalyptic Battlefield, a besieged Human Hideout, and through the security checkpoints of the enemy supercomputer SkyNet. After destroying the computer, players travel back in time to protect John and Sarah Connor, while also destroying every scrap of SkyNet research at the headquarters of its manufacturer. From there, players must fend off the indestructible T-1000 until the final showdown in the Steel Mill. Assets from the movie are used when possible, such as voice clips from Arnold Schwarzenegger, and close-up digital stills of Robert Patrick for the final battle against the T-1000. The Genesis and SNES versions also support lightguns (the Menacer and Super Scope, respectively)."
   },
   {
@@ -213,7 +213,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co40i5.png",
     "year": "1987",
     "genre": ["Fighting", "Sport"],
-    "platforms": ["Nintendo Entertainment System (NES)", "Arcade"],
+    "platform": ["Nintendo Entertainment System (NES)", "Arcade"],
     "description": "Punch-Out!!, originally released in North America as Mike Tyson's Punch-Out!!, is a boxing sports fighting video game for the Nintendo Entertainment System (NES) developed and published by Nintendo in 1987. Part of the Punch-Out!! series, it is a port of both the Punch-Out!! and Super Punch-Out!! arcade games (particularly the latter) with some variations. Punch-Out!! features a boxer known as Little Mac working his way up the professional boxing circuits, facing a series of colorful, fictional boxers, leading to a final fight with real-life boxer, the then-World Heavyweight Champion, which is Mike Tyson in the original version and Mr. Dream in the later version."
   },
   {
@@ -221,7 +221,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213q.png",
     "year": "2014",
     "genre": ["Racing"],
-    "platforms": ["Wii U"],
+    "platform": ["Wii U"],
     "description": "Turn your racing experience upside down! Nintendo's Mario Kart franchise comes to the Wii U console in full HD, introducing new racing circuit designs and anti-gravity karts that will have players driving upside down. And for the first time, all of Bowser's seven Koopalings are playable characters-- get a taste of being bad on the race track by playing as Iggy, Larry, Lemmy, Ludwig, Morton, Roy and Wendy. Players will also enjoy a variety of series-favorite features, including the return of 12-player online competitive play, hang-gliders, underwater racing and motorbikes."
   },
   {
@@ -229,7 +229,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w3u.png",
     "year": "2001",
     "genre": ["Shooter", "Simulator"],
-    "platforms": ["Nintendo GameCube"],
+    "platform": ["Nintendo GameCube"],
     "description": "In Star Wars Rogue Squadron II: Rogue Leader you get the chance to jump into the cockpit of an X-wing and join Luke Skywalker and the Star Wars galaxy's most daring pilots as they return to face off against the Empire. As in the original hit game for N64, you'll relive favorite Star Wars battles including the perilous Death Star trench run, a daring space attack on a Star Destroyer and the legendary battle on the ice planet Hoth. Rogue Leader features stunning, movie like visuals and immerses players in an intense action-arcade experience. Aerial conflict takes place in a variety of craft such as the legendary X-wing, A-wing, and B-wing."
   },
   {
@@ -237,7 +237,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wr1.png",
     "year": "2001",
     "genre": ["Adventure"],
-    "platforms": ["Nintendo GameCube"],
+    "platform": ["Nintendo GameCube"],
     "description": "Luigi steps out from the shadow of his brother Mario and into the gloomy shadows of a very haunted house in this, his first-ever starring role. When Luigi learns that he's the proud new owner of a creepy old mansion, he's thrilled. Of course, his feelings immediately shift when his brother, the storied Mario, disappears from the house. Now, you'll have to help Luigi track his brother down, making your way through expansive 3D levels. Each stage is packed with ghosts and ghouls to put you on edge; and you'll be armed with a flashlight and a vacuum cleaner to help you capture your foes. Armed with a flashlight and a customized vacuum cleaner, Luigi must rid the mansion of Boos and ghouls -- and find his missing brother to boot!"
   },
   {
@@ -245,7 +245,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27k6.png",
     "year": "1981",
     "genre": ["Arcade", "Shooter"],
-    "platforms": ["MSX", "Wii U", "Xbox 360", "Nintendo Entertainment System (NES)", "Sega Master System", "Sharp X1", "FM-7", "Atari 7800", "SG-1000", "PC-98", "Arcade"],
+    "platform": ["MSX", "Wii U", "Xbox 360", "Nintendo Entertainment System (NES)", "Sega Master System", "Sharp X1", "FM-7", "Atari 7800", "SG-1000", "PC-98", "Arcade"],
     "description": "The objective of Galaga is to score as many points as possible by destroying insect-like enemies. The player controls a starfighter that can move left and right along the bottom of the playfield. Enemies swarm in groups in a formation near the top of the screen, and then begin flying down toward the player, firing bombs at the fighter. The game ends when the player's last fighter is lost, either by colliding with an enemy or one of its bullets, or by being captured."
   },
   {
@@ -253,7 +253,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.png",
     "year": "2013",
     "genre": ["Adventure", "Shooter"],
-    "platforms": ["Xbox One", "PlayStation 4", "Xbox 360", "PlayStation 5", "PC (Microsoft Windows)", "PlayStation 3", "Xbox Series X|S"],
+    "platform": ["Xbox One", "PlayStation 4", "Xbox 360", "PlayStation 5", "PC (Microsoft Windows)", "PlayStation 3", "Xbox Series X|S"],
     "description": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game's three lead characters, playing all sides of the game's interwoven story."
   },
   {
@@ -261,7 +261,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3si6.png",
     "year": "1998",
     "genre": ["Racing"],
-    "platforms": ["Game Boy Color", "Mac", "PlayStation", "PC (Microsoft Windows)"],
+    "platform": ["Game Boy Color", "Mac", "PlayStation", "PC (Microsoft Windows)"],
     "description": "Carmageddon 2 - Carpocalypse Now will take players to the next level of gameplay, whether you are trying to hold down your lunch after taking out those pedestrians waiting for a bus, or franticly trying to re-build your car after having your butt kicked by one of the GAME'S AI opponents, Carmageddon 2 - Carpocalypse Now will take you to the edge and further as you race your way through 1998's greatest driving game."
   },
   {
@@ -269,14 +269,14 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufk.png",
     "year": "1989",
     "genre": ["Arcade", "Puzzle", "Strategy"],
-    "platforms": "Tetris is a tile-matching puzzle video game. The goal is to place pieces made up of four tiles in a ten-by-twenty well, organizing them into complete rows, which then disappear. The main objective of each round is to clear 25 lines, after which the player moves on to the next round. If the stack reaches the top of the field, the player loses a life, and if all three lives are lost, the game is over. The game lets the player choose the starting stage and round, as well as one of three background tunes. Difficulty is increased throughout the stages by an increase in speed and the addition of garbage blocks in the well."
+    "platform": "Tetris is a tile-matching puzzle video game. The goal is to place pieces made up of four tiles in a ten-by-twenty well, organizing them into complete rows, which then disappear. The main objective of each round is to clear 25 lines, after which the player moves on to the next round. If the stack reaches the top of the field, the player loses a life, and if all three lives are lost, the game is over. The game lets the player choose the starting stage and round, as well as one of three background tunes. Difficulty is increased throughout the stages by an increase in speed and the addition of garbage blocks in the well."
   },
   {
     "gameName": "Half-Life 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmw.png",
     "year": "2004",
     "genre": ["Shooter"],
-    "platforms": ["Android", "Linux", "Xbox 360", "Mac", "Xbox", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Android", "Linux", "Xbox 360", "Mac", "Xbox", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "1998. HALF-LIFE sends a shock through the game industry with its combination of pounding action and continuous, immersive storytelling. By taking the suspense, challenge and visceral charge of the original, and adding startling new realism and responsiveness, Half-Life 2 opens the door to a world where the player's presence affects everything around them, from the physical environment to the behaviors even the emotions of both friends and enemies."
   },
   {
@@ -284,7 +284,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3t1e.png",
     "year": "1991",
     "genre": ["Arcade", "Fighting"],
-    "platforms": ["Wii U", "Amstrad CPC", "Amiga", "Game Boy", "ZX Spectrum", "Super Famicom", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Wii", "Commodore C64/128", "Atari ST/STE", "Arcade", "PC (Microsoft Windows)"],
+    "platform": ["Wii U", "Amstrad CPC", "Amiga", "Game Boy", "ZX Spectrum", "Super Famicom", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Wii", "Commodore C64/128", "Atari ST/STE", "Arcade", "PC (Microsoft Windows)"],
     "description": "A sequel to Street Fighter, Street Fighter II improved upon the many concepts introduced in the first game, including the use of command-based special moves and a six-button configuration, while offering players a selection of multiple playable characters, each with their own unique fighting style and special moves."
   },
   {
@@ -292,7 +292,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28hq.png",
     "year": "2001",
     "genre": ["Pinball", "Puzzle", "Racing"],
-    "platforms": ["Nintendo GameCube"],
+    "platform": ["Nintendo GameCube"],
     "description": "Super Monkey Ball is a 2001 platform party video game developed by Amusement Vision and published by Sega. The game debuted in Japan at the 2001 Amusement Operators Union trade show as Monkey Ball, an arcade cabinet running on Sega's NAOMI hardware and controlled with a distinctive banana-shaped analog stick. Due to the failure of Sega's Dreamcast home console and the company's subsequent restructuring, an enhanced port dubbed Super Monkey Ball was released as a launch title for the GameCube in late 2001, garnering interest as Sega's first game published for a Nintendo home console."
   },
   {
@@ -300,7 +300,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y25.png",
     "year": "1992",
     "genre": ["Fighting"],
-    "platforms": ["Sega Genesis", "Amiga", "Game Boy", "Sega CD", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Sega Game Gear", "Arcade"],
+    "platform": ["Sega Genesis", "Amiga", "Game Boy", "Sega CD", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Sega Game Gear", "Arcade"],
     "description": "Mortal Kombat is a side-scrolling fighting game. Fighting is set as one-on-one combat, allowing each player to perform a variety of punches, kicks, and special moves in order to defeat their opponent. When the opponent faces their second round loss, the winner can perform a finishing move called a 'Fatality' on the loser. The Fatality is a move unique to each fighter that graphically kills the loser in a blood-soaked finale."
   },
   {
@@ -308,7 +308,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.png",
     "year": "2017",
     "genre": ["Adventure", "Shooter"],
-    "platforms": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
+    "platform": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
     "description": "Embark on an endless Star Wars action experience from the best-selling Star Wars HD video game franchise of all time. Experience rich multiplayer battlegrounds across all 3 eras - prequel, classic and new trilogy - or rise as a new hero and discover an emotionally gripping single-player story spanning thirty years. Customise and upgrade your heroes, starfighters or troopers - each with unique abilities to exploit in battle. Ride tauntauns or take control of tanks and speeders. Use the Force to prove your worth against iconic characters like Kylo Ren, Darth Maul or Han Solo, as you play a part in a gaming experience inspired by forty years of timeless Star Wars films."
   },
   {
@@ -316,7 +316,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25w8.png",
     "year": "1997",
     "genre": ["Adventure", "Shooter"],
-    "platforms": ["Nintendo 64"],
+    "platform": ["Nintendo 64"],
     "description": "GoldenEye 007 is a first-person shooter video game developed by Rare and based on the 1995 James Bond film GoldenEye. It was exclusively released for the Nintendo 64 video game console in August 1997."
   },
   {
@@ -324,7 +324,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ga8.png",
     "year": "2021",
     "genre": ["Card & Board Game"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "Calling all Superstars! Mario Party is back with 5 classic boards from the Nintendo 64 Mario Party games. Frosting meets flowers as you race to get the most stars (and sabotage your opponents) on the Peach's Birthday Cake board from the original Mario Party game. Or watch the countdown that unleashes Bowser Coin Beam and hold onto those coins on the Space Land board. The tides can turn quickly in Mario Party, so stay vigilant, partygoers. This and all other modes can be played online, too!"
   },
   {
@@ -332,7 +332,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r2r.png",
     "year": "2001",
     "genre": ["Shooter"],
-    "platforms": ["Xbox 360", "Mac", "Xbox", "PC (Microsoft Windows)"],
+    "platform": ["Xbox 360", "Mac", "Xbox", "PC (Microsoft Windows)"],
     "description": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of Halo."
   },
   {
@@ -340,7 +340,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wls.png",
     "year": "2020",
     "genre": ["Simulator"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "Escape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round."
   },
   {
@@ -348,7 +348,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/da86yojgmrblhuxieuuc.png",
     "year": "1987",
     "genre": ["Arcade", "Shooter", "Simulator"],
-    "platforms": ["Amiga", "Nintendo Entertainment System (NES)", "Commodore C64/128", "Sega Master System", "Arcade"],
+    "platform": ["Amiga", "Nintendo Entertainment System (NES)", "Commodore C64/128", "Sega Master System", "Arcade"],
     "description": "Muster up all the skill, reflexes and guts you've got. Because inside your F-14 Thunder Cat, you're going to need all that - and more. Blast laser-directed,anti-aircraft fire at enemy planes. Dodge heat-seeking missiles with fancy flywork, like dips, turns and barrel rolls. Come head to head with the infamous Flying Fortresses (the toughest of all enemies) and dogfight your way through, to a nanosecond of safety. And if you make it far enough, a fuel tanker will be waiting for you. Dock successfully and you'll replenish valuable energy and ammunition. So get your adrenaline pumping and grab your joystick. Then take to the skies. You're not going to believe what's up there!"
   },
   {
@@ -356,7 +356,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3zg4.png",
     "year": "1999",
     "genre": ["Racing"],
-    "platforms": ["Android", "PlayStation 2", "Xbox 360", "iOS", "Nintendo GameCube", "Dreamcast", "Arcade", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Android", "PlayStation 2", "Xbox 360", "iOS", "Nintendo GameCube", "Dreamcast", "Arcade", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Hey hey, come on over and have some fun with Crrrrrazy Taxi! Barrel through traffic packed streets, hurdle off parking garages, and Crazy Combo your way to Crazy Money in a wild frantic race to scare up the most fares. In Crazy Taxi, time is money, and only the Craziest Cabbies come out victorious."
   },
   {
@@ -364,7 +364,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2k3b.png",
     "year": "1999",
     "genre": ["Shooter"],
-    "platforms": ["PlayStation 2", "Linux", "Mac", "Dreamcast", "PC (Microsoft Windows)"],
+    "platform": ["PlayStation 2", "Linux", "Mac", "Dreamcast", "PC (Microsoft Windows)"],
     "description": "The first game in the Unreal series which has come to revolutionize game physics in the present. Unreal is a first person shooter with futuristic weapons, ammo, and arenas."
   },
   {
@@ -372,7 +372,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y06.png",
     "year": "1995",
     "genre": ["Fighting"],
-    "platforms": ["Sega Genesis", "Sega Saturn", "Nintendo DS", "Xbox 360", "Game Boy Advance", "Super Nintendo Entertainment System (SNES)", "Arcade"],
+    "platform": ["Sega Genesis", "Sega Saturn", "Nintendo DS", "Xbox 360", "Game Boy Advance", "Super Nintendo Entertainment System (SNES)", "Arcade"],
     "description": "Ultimate Mortal Kombat 3 combines the best of all the Mortal Kombats into a single cartridge. 23 playable characters are immediately available, such as Reptile, Cyrax, Scorpion, Sub-Zero, Jax, Katana, Sonya, and more. There are two bosses that are unlockable, as well as additional characters. There is a variety of new levels, some of which are interactive. Characters can uppercut someone, causing them to hit the ground hard and crash through to the bottom floor, or they can knocked someone off a bridge, landing in a pit of spikes. Players can go against the computer one-on-one, two-on-two, or take part in the 8-fighter tournament."
   },
   {
@@ -380,7 +380,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.png",
     "year": "2017",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "Explore incredible places far from the Mushroom Kingdom as you join Mario and his new ally Cappy on a massive, globe-trotting 3D adventure. Use amazing new abilities, like the power to capture and control objects, animals, and enemies to collect Power Moons so you can power up the Odyssey airship and save Princess Peach from Bowser's wedding plans!"
   },
   {
@@ -388,7 +388,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24jz.png",
     "year": "2008",
     "genre": ["Puzzle", "Simulator", "Strategy"],
-    "platforms": ["Android", "Linux", "Mac", "iOS", "Wii", "PC (Microsoft Windows)", "Nintendo Switch"],
+    "platform": ["Android", "Linux", "Mac", "iOS", "Wii", "PC (Microsoft Windows)", "Nintendo Switch"],
     "description": "World of Goo is a multiple award winning physics based puzzle / construction game made entirely by two guys. Drag and drop living, squirming, talking, globs of goo to build structures, bridges, cannonballs, zeppelins, and giant tongues. The millions of Goo Balls that live in the beautiful World of Goo are curious to explore - but they don't know that they are in a game, or that they are extremely delicious. Congratulations, and good luck!"
   },
   {
@@ -396,7 +396,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uii.png",
     "year": "1986",
     "genre": ["Adventure"],
-    "platforms": ["Nintendo 3DS", "Wii U", "Nintendo Entertainment System (NES)", "Family Computer Disk System", "Wii"],
+    "platform": ["Nintendo 3DS", "Wii U", "Nintendo Entertainment System (NES)", "Family Computer Disk System", "Wii"],
     "description": "Set in the fantasy land of Hyrule, the plot centers on a boy named Link, the playable protagonist, who aims to collect the eight fragments of the Triforce of Wisdom in order to rescue Princess Zelda from the antagonist, Ganon. During the course of the game, the player sees Link from a top-down perspective and must navigate him through the overworld and several dungeons, defeating enemies and finding secrets along the way."
   },
   {
@@ -404,7 +404,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d9p.png",
     "year": "2009",
     "genre": ["Adventure", "Point-and-click", "Puzzle"],
-    "platforms": ["Xbox 360", "Mac", "iOS", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "Mac", "iOS", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Back by popular demand, The Secret of Monkey Island: Special Edition faithfully re-imagines the internationally-acclaimed classic game (originally released in 1990) for original and new audiences alike. The development team at LucasArts is bringing the game into the modern era with an all new re-imagined contemporary art style, a re-mastered musical score, full voiceover, and an in-depth hint system to help players through the game's side-splitting puzzles. Purists will also delight in the ability to seamlessly switch between the updated hand-drawn re-imagining and the original classic version. The game's twisty plot leads our naive hero on a hilarious, swash-buckling search for the fabled secret of Monkey Island. Tales of pirate wealth lure him to the port of Mêlée with high hopes, no money, and insatiable curiosity. If clever enough, he will win the confidence of Mêlée's pirates and find himself blown by the winds of fate toward the terrifying and legendary Monkey Island -- an adventure that would chill the bones of even the most bloodthirsty buccaneer."
   },
   {
@@ -412,7 +412,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21vd.png",
     "year": "2013",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Wii U"],
+    "platform": ["Wii U"],
     "description": "Super Mario 3D World is a 3D platformer action game for the Wii U, and a follow-up of the Nintendo 3DS installment Super Mario 3D Land. The game builds upon the previous installment, following a similar 3D level-design convention inspired from the 2D platformer titles where players must navigate through a linear-designed level within a time limit to reach a level's Goal Pole. One key aspect introduced in this title is the simultaneous multiplayer: while not the first game in the series to do so, it is the first 3D title in the Mario series to incorporate up to four players cooperating with each other to reach the goal. Players can select their character from a pool of playable characters prior to starting the game, and each of these characters have their own unique playstyle that gives them advantages and disadvantages over other characters. The game makes use of several Wii U exclusive features, such as tapping blocks with the touch screen on the GamePad and blowing into the mic to reveal hidden items and blow away enemies. Various new power-ups are introduced in this title, with the trademark suit being the Cat power-up, which enables characters to perform a melee attack, climb up walls, and leap while midair, as well as the game generally having a cat-based theme."
   },
   {
@@ -420,7 +420,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3d6n.png",
     "year": "1986",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Nintendo 3DS", "Wii U", "Amiga", "Nintendo Entertainment System (NES)", "Family Computer Disk System", "PC DOS", "Wii", "Commodore C64/128", "Arcade"],
+    "platform": ["Nintendo 3DS", "Wii U", "Amiga", "Nintendo Entertainment System (NES)", "Family Computer Disk System", "PC DOS", "Wii", "Commodore C64/128", "Arcade"],
     "description": "Step into the shadows of the deadliest dwelling on earth. You've arrived at Castlevania, and you're here on business: To destroy forever the Curse of the Evil Count. Unfortunately, everybody's home this evening. Bats, ghosts, every kind of creature you can imagine. You'll find 'em all over the place, if they don't find you first. Because you've got to get through six monstrous floors before you even meet up with the Master of the House. Your Magic Whip will help, and you'll probably find a weapons or two along the way. But once you make it to the tower, you can count on a Duel to the Death. The Count has waited 100 years for a rematch."
   },
   {
@@ -428,7 +428,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rst.png",
     "year": "2018",
     "genre": ["Adventure", "Role-playing (RPG)"],
-    "platforms": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
+    "platform": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
     "description": "Monster Hunter: World sees players take on the role of a hunter that completes various quests to hunt and slay monsters within a lively living and breathing eco-system full of predators…. and prey. In the video you can see some of the creatures you can expect to come across within the New World, the newly discovered continent where Monster Hunter: World is set, including the Great Jagras which has the ability to swallow its prey whole and one of the Monster Hunter series favourites, Rathalos. Players are able to utilise survival tools such as the slinger and Scoutfly to aid them in their hunt. By using these skills to their advantage hunters can lure monsters into traps and even pit them against each other in an epic fierce battle. Can our hunter successfully survive the fight and slay the Anjanath? He'll need to select his weapon choice carefully from 14 different weapon classes and think strategically about how to take the giant foe down. Don't forget to pack the camouflaging ghillie suit!"
   },
   {
@@ -436,7 +436,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.png",
     "year": "2018",
     "genre": ["Adventure", "Hack and slash/Beat 'em up"],
-    "platforms": ["PlayStation 4"],
+    "platform": ["PlayStation 4"],
     "description": "Starring the world's most iconic Super Hero, Spider-Man features the acrobatic abilities, improvisation and web-slinging that the wall-crawler is famous for, while also introducing elements never-before-seen in a Spider-Man game. From traversing with parkour and utilizing the environment, to new combat and blockbuster set pieces, it's Spider-Man unlike any you've played before."
   },
   {
@@ -444,7 +444,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xx.png",
     "year": "2008",
     "genre": ["Adventure", "Hack and slash/Beat 'em up", "Role-playing (RPG)"],
-    "platforms": ["PlayStation 2", "Xbox 360", "Mac", "PlayStation Portable", "iOS', 'Wii", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["PlayStation 2", "Xbox 360", "Mac", "PlayStation Portable", "iOS', 'Wii", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Star Wars: The Force Unleashed is a Star Wars video game that takes place between the films Star Wars: Episode III Revenge of the Sith and Star Wars: Episode IV A New Hope. It is the centerpiece of the Star Wars: The Force Unleashed multimedia project, Star Wars: The Force Unleashed completely re-imagines the scope and scale of the Force and casts players as Darth Vader's 'Secret Apprentice,' unveiling new revelations about the Star Wars galaxy seen through the eyes of a mysterious new character armed with unprecedented powers. The game showcases Digital Molecular Matter (DMM), an extremely detailed and realistic material physics engine developed by Pixelux, and Euphoria, a realistic bio-mechanical A.I. engine by NaturalMotion"
   },
   {
@@ -452,7 +452,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nhp.png",
     "year": "2005",
     "genre": ["Racing"],
-    "platforms": ["PlayStation 2", "Xbox 360", "Xbox"],
+    "platform": ["PlayStation 2", "Xbox 360", "Xbox"],
     "description": "In Burnout Revenge, players compete in a range of racing game types with different aims. These take place within rush-hour traffic, and include circuit racing, Road Rage (where players cause as many rivals to crash as possible within a time limit, or until the player's car is wrecked), Burning Lap (a single-lap, single-racer time attack mode), Eliminator (a circuit race where every thirty seconds, the last-placed racer's car is detonated; the race continues until only one racer is left), and Crash (where the player is placed at a junction with the aim of accumulating as many 'Crash Dollars' as possible). A new gameplay feature in Burnout Revenge is the ability to ram same-way small to medium traffic, known as 'traffic checking', propelling the rammed car forward; the event in which a 'checked' car hits a rival is considered as a Traffic Takedown. Traffic checking is the focus of a new race type, Traffic Attack (whereby a player must earn a set amount of Crash Dollars through checking traffic), which can be used later on."
   },
   {
@@ -460,7 +460,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co30yu.png",
     "year": "1997",
     "genre": ["Adventure", "Point-and-click", "Puzzle"],
-    "platforms": "PC (Microsoft Windows)",
+    "platform": "PC (Microsoft Windows)",
     "description": "Select from a variety of buccaneer hairstyles at The Barbery Coast. Enjoy a warm reunion with an old flame. Piracy never looked so good! Learn a valuable trade in lighthouse and VCR repair. Loot, sack and pillage this quaint Caribbean hamlet. Third in the legendary Monkey Island series of graphic adventures. Film quality animation, voice, sound and music- the undead come to life before your very eyes! Incredible high-resolution (640 x 480) graphics. A barrel of gameplay- estimated 30-plus hours. Two difficulty settings: regular and Mega-Monkey (now with much more puzzley goodness)! New and improved insults suitable for swordfights and other fun occasions!"
   },
   {
@@ -468,7 +468,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g7w.png",
     "year": "2008",
     "genre": ["Shooter"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Dead Space is a 2008 science fiction survival horror video game developed by EA Redwood Shores (now Visceral Games) for Microsoft Windows, PlayStation 3 and Xbox 360. The game was released on all platforms through October 2008. The game puts the player in control of an engineer named Isaac Clarke, who battles the Necromorphs, reanimated human corpses, aboard an interstellar mining ship, the USG Ishimura."
   },
   {
@@ -476,7 +476,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.png",
     "year": "2014",
     "genre": ["Adventure"],
-    "platforms": ["Xbox One", "PlayStation 4", "Linux", "Xbox 360", "Mac", "PC (Microsoft Windows)", "Nintendo Switch", "PlayStation 3"],
+    "platform": ["Xbox One", "PlayStation 4", "Linux", "Xbox 360", "Mac", "PC (Microsoft Windows)", "Nintendo Switch", "PlayStation 3"],
     "description": "Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger. Fifteen years after the events of Alien™, Ellen Ripley's daughter, Amanda enters a desperate battle for survival, on a mission to unravel the truth behind her mother's disappearance. As Amanda, you will navigate through an increasingly volatile world as you find yourself confronted on all sides by a panicked, desperate population and an unpredictable, ruthless Alien. Underpowered and underprepared, you must scavenge resources, improvise solutions and use your wits, not just to succeed in your mission, but to simply stay alive."
   },
   {
@@ -484,7 +484,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/kkmops6tysw80ns9jd2j.png",
     "year": "1983",
     "genre": ["Arcade", "Puzzle"],
-    "platforms": ["Arcade"],
+    "platform": ["Arcade"],
     "description": "Pac & Pal is an arcade game that was released by Namco on July 30, 1983 exclusively in Japan. It runs on Namco Super Pac-Man hardware, and the object of the game is for Pac-Man to eat all the items before he is caught by the ghosts. Most of the items are fruits from the original Pac-Man game, with a few new additions. Their value varies, starting with cherries at 50 points, and ending with keys from 700 to 5000 points. The items had to first be unlocked by turning over cards distributed around the maze (instead of eating keys like in Super Pac-Man). Very few cabinets still exist today, and this is possibly one of the rarest Pac-Man titles to find in playable format outside Japan."
   },
   {
@@ -492,7 +492,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39zx.png",
     "year": "2021",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "Join intergalactic bounty hunter Samus Aran in her first new 2D Metroid story in 19 years. Samus' story continues after the events of the Metroid Fusion game when she descends upon planet ZDR to investigate a mysterious transmission sent to the Galactic Federation. The remote planet has become overrun by vicious alien lifeforms and chilling mechanical menaces. Samus is more agile and capable than ever, but can she overcome the inhuman threat stalking the depths of ZDR?"
   },
   {
@@ -500,7 +500,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dwe.png",
     "year": "2020",
     "genre": ["Adventure", "Hack and slash/Beat 'em up"],
-    "platforms": ["PlayStation 4", "PlayStation 5"],
+    "platform": ["PlayStation 4", "PlayStation 5"],
     "description": "The latest adventure in the Spider-Man universe will build on and expand Marvels Spider-Man through an all-new story. Players will experience the rise of Miles Morales as he masters new powers to become his own Spider-Man."
   },
   {
@@ -508,7 +508,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49qy.png",
     "year": "2009",
     "genre": ["Puzzle", "Real Time Strategy (RTS)", "Strategy", "Tactical"],
-    "platforms": ["Android", "Nintendo DSi", "Nintendo DS", "Xbox 360", "Mac", "iOS", "PlayStation Vita", "Windows Phone", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Android", "Nintendo DSi", "Nintendo DS", "Xbox 360", "Mac", "iOS", "PlayStation Vita", "Windows Phone", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Plants vs. Zombies is a 2009 tower defense video game developed and originally published by PopCap Games. The game involves a homeowner using many varieties of plants to repel an army of zombies from 'eating their brains'."
   },
   {
@@ -516,7 +516,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3cs2.png",
     "year": "1994",
     "genre": ["Shooter"],
-    "platforms": ["Atari Jaguar"],
+    "platform": ["Atari Jaguar"],
     "description": "You're a Predator warrior in the 25th century--an awesome monster with an ugly face, brute strength and very cool weapons. Trained to fight with all that Predator technology has to offer--destroy or be destroyed! You've come to New Shanghai, a city on the planet Vega 4, to hunt humans, but instead, you find Aliens--powerful, double-jawed beasts bent on annihilating life. You're outnumbered, but not outsmarted--the hunt is on. Alien drones, warriors, chest-bursters and face-huggers stand in your way. Use your lasers, blades and special weapons of destruction to win honor for your deeds. Destroy the Guardian Aliens to advance to the next level, then follow your primal instinct to reach the ultimate prey... the Alien Queen!"
   },
   {
@@ -524,7 +524,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ekt.png",
     "year": "2017",
     "genre": ["Role-playing (RPG)", "Shooter, Strategy"],
-    "platforms": ["Android", "Xbox One", "PlayStation 4", "Mac", "iOS", "PlayStation 5", "PC (Microsoft Windows)", "Nintendo Switch", "Xbox Series X|S"],
+    "platform": ["Android", "Xbox One", "PlayStation 4", "Mac", "iOS", "PlayStation 5", "PC (Microsoft Windows)", "Nintendo Switch", "Xbox Series X|S"],
     "description": "Fortnite is the completely free online game where you and your friends fight to be the last one standing in Battle Royale, join forces to make your own Creative games, or catch a live show at Party Royale."
   },
   {
@@ -532,7 +532,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28gg.png",
     "year": "2008",
     "genre": ["Shooter"],
-    "platforms": ["Xbox 360"],
+    "platform": ["Xbox 360"],
     "description": "In Gears of War 2, The COG continues its fight against the Locust horde, who are attempting to sink all of the cities on the planet Sera by using a big riftworm to eat the ground beneath them. Sergeant Marcus Fenix leads Delta Squad into the depths of the planet to try to stop the worm from eating but instead they discover the true intent of the Locust actions."
   },
   {
@@ -540,7 +540,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r6q.png",
     "year": "1999",
     "genre": ["Simulator", "Strategy"],
-    "platforms": ["Xbox", "PC (Microsoft Windows)"],
+    "platform": ["Xbox", "PC (Microsoft Windows)"],
     "description": "The premise of the game is to complete a series of preset scenarios by successfully building and maintaining amusement parks through business ownership as a theme park entrepreneur. The key to any park is building a large amount and diverse range of rides for the visitors. Players can choose from dozens of roller coaster types and can also build log flumes, carousels, bumper cars, haunted houses, go karts, ferris wheels, and swinging ships, among other rides. The intensity and type of rides must be balanced, as visitors' preferences vary significantly from person to person. For example, some guests prefer exciting rides and have high nausea tolerance levels, while other guests are just the opposite."
   },
   {
@@ -548,7 +548,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbi.png",
     "year": "2019",
     "genre": ["Adventure"],
-    "platforms": ["Xbox One", "PlayStation 4", "PlayStation 5", "PC (Microsoft Windows)", "Xbox Series X|S", "Google Stadia"],
+    "platform": ["Xbox One", "PlayStation 4", "PlayStation 5", "PC (Microsoft Windows)", "Xbox Series X|S", "Google Stadia"],
     "description": "A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen Order™, a new third-person action-adventure title from Respawn Entertainment. This narratively driven, single-player game puts you in the role of a Jedi Padawan who narrowly escaped the purge of Order 66 following the events of Episode 3: Revenge of the Sith. On a quest to rebuild the Jedi Order, you must pick up the pieces of your shattered past to complete your training, develop new powerful Force abilities and master the art of the iconic lightsaber - all while staying one step ahead of the Empire and its deadly Inquisitors."
   },
   {
@@ -556,7 +556,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hwo.png",
     "year": "2015",
     "genre": ["Platform", "Shooter", "Strategy"],
-    "platforms": ["Wii U"],
+    "platform": ["Wii U"],
     "description": "Splatoon is primarily a team-based third-person shooter which is playable by up to eight players in 4-vs-4 matches, although the game also features a single-player campaign. Players control characters called Inklings, wich can change between human form and squid form. Transforming into a squid allows players to swim through ink of their own color, even up walls and through grates, hiding from the enemy and replenishing their ink supply in the process."
   },
   {
@@ -564,7 +564,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxn.png",
     "year": "2017",
     "genre": ["Fighting", "Sport"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "ARMS, a mix of boxing and shooting where you use extendable arms to battle your friends both locally and online! Take a Joy-Con in each hand and punch forward, twisting your fists to bend your attacks. Choose a fighting champion from around the world, equip your own combination of extendable arms, and then use a mix of button presses and quick hand motions to really take the fight to your opponent. Throw punches and guide them midflight to hit agile fighters, avoid incoming attacks with dashes, or trampoline high into the air to rain down fists from above. Power-up your punches to deal extra damage or curve your fists around obstacles to hit skittish opponents. Fill up your special gauge to dish out devastating combinations and finish them off. Unleash your inner fighter in this unbelievable sporting event!"
   },
   {
@@ -572,7 +572,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.png",
     "year": "2018",
     "genre": ["Adventure", "Hack and slash/Beat 'em up"],
-    "platforms": ["PlayStation 4", "PC (Microsoft Windows)"],
+    "platform": ["PlayStation 4", "PC (Microsoft Windows)"],
     "description": "It is a new beginning for Kratos. Living as a man, outside the shadow of the gods, he seeks solitude in the unfamiliar lands of Norse mythology. With new purpose and his son at his side, Kratos must fight for survival as powerful forces threaten to disrupt the new life he has created..."
   },
   {
@@ -580,7 +580,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21tl.png",
     "year": "2010",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Wii U", "Wii"],
+    "platform": ["Wii U", "Wii"],
     "description": "Super Mario Galaxy 2 is the sequel to Super Mario Galaxy and the fourth 3D platformer entry in the Mario franchise. The sequel retains many elements from its predecessor, such as the adventure being in outer space, the element of gravity, and recurring objects such as Launch Stars and Sling Stars. Returning items include the Bee Mushroom and the Fire Flower. However, the game introduces new elements as well, such as the utilization of Yoshi, new power-ups like the Cloud Flower, and the use of a guide within the game for beginner players."
   },
   {
@@ -588,7 +588,7 @@
     "cover": "The Legend of Zelda: Ocarina of Time",
     "year": "1998",
     "genre": ["Adventure", "Platform", "Puzzle", "Role-playing (RPG)"],
-    "platforms": ["Wii U", "Wii", "Nintendo 64"],
+    "platform": ["Wii U", "Wii", "Nintendo 64"],
     "description": "A 3D reimagining of the core premise of The Legend of Zelda: A Link to the Past (1991), Ocarina of Time follows Link, the protagonist, as he picks up a sword and leaves behind his humble origins in order to trek across the land of Hyrule, venture into its treacherous dungeons and travel through time itself to fulfill his destiny as the Hero of Time by defeating his enemy Ganondorf and ridding Hyrule of evil."
   },
   {
@@ -596,7 +596,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.png",
     "year": "2007",
     "genre": ["Role-playing (RPG)", "Shooter"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "What starts as a routine mission to an agrarian outpost quickly becomes the opening salvo in an epic war. As the newly appointed Executive Officer of the SSV Normandy, you'll assemble and lead an elite squad of heroes into battle after heart-pounding battle. Each decision you make will impact not only your fate, but the destiny of the entire galaxy in the Mass Effect trilogy."
   },
   {
@@ -604,7 +604,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.png",
     "year": "2011",
     "genre": ["Adventure", "Platform", "Puzzle", "Shooter"],
-    "platforms": ["Linux", "Xbox 360", "Mac", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Linux", "Xbox 360", "Mac", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Sequel to the acclaimed Portal (2007), Portal 2 pits the protagonist of the original game, Chell, and her new robot friend, Wheatley, against more puzzles conceived by GLaDOS, an A.I. with the sole purpose of testing the Portal Gun's mechanics and taking revenge on Chell for the events of Portal. As a result of several interactions and revelations, Chell once again pushes to escape Aperture Science Labs."
   },
   {
@@ -612,7 +612,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22a9.png",
     "year": "2019",
     "genre": ["Adventure"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "Luigi embarks on a dream vacation with Mario and friends upon receiving an invitation to a luxurious hotel. However, his dream quickly becomes a nightmare when King Boo reveals everything had been a ploy to capture Mario and friends. With the assistance of Professor E. Gadd once again, the reluctant and cowardly hero Luigi traverses up and down treacherous floors of the now-ominous hotel on a quest to save them."
   },
   {
@@ -620,7 +620,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcf.png",
     "year": "2009",
     "genre": ["Adventure", "Platform"],
-    "platforms": "Xbox 360, Mac, iOS, PC (Microsoft Windows), PlayStation 3",
+    "platform": "Xbox 360, Mac, iOS, PC (Microsoft Windows), PlayStation 3",
     "description": "Discover an intriguing and epic story of power, revenge and conspiracy set during a pivotal moment in history: the Italian Renaissance. Experience the freedom and immersion of an all new open world and mission structure with settings such as the rooftops and canals of beautiful Venice. Your options in combat, assassination and escape are vast, with many new weapons, settings and gameplay elements."
   },
   {
@@ -628,7 +628,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voj.png",
     "year": "2009",
     "genre": ["Adventure", "Hack and slash/Beat 'em up"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)", "Ouya", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)", "Ouya", "PlayStation 3"],
     "description": "Using a great variety of gadgets you must make your way around the island, and the asylums halls to find and stop the joker. The game uses a 3-button combat system, but with a great number of gadget abilites which Batman can unlock. This makes for a very cinematic combat experience when fighting the Joker's goons."
   },
   {
@@ -636,7 +636,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xq.png",
     "year": "2011",
     "genre": ["Adventure", "Shooter"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Three years after the Necromorph infestation aboard the USS Ishimura, Isaac Clarke awakens from a coma, confused, disoriented, and on a space station called The Sprawl. Just as his health begins to improve, The Sprawl is overrun with even more advanced forms of the alien-zombie hybrids."
   },
   {
@@ -644,7 +644,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mli.png",
     "year": "2007",
     "genre": ["Role-playing (RPG)", "Shooter"],
-    "platforms": ["Xbox 360", "Mac", "iOS", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "Mac", "iOS", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Set in the steampunk Objectivist underwater dystopia of Rapture in the 1960's, Bioshock is a first-person shooter wherein the player arms and genetically modifies themselves in order to survive against the city's resident great minds-turned-maddened anomalies and aid a revolutionary leader named Atlas in overthrowing the city's ruling despot, Andrew Ryan."
   },
   {
@@ -652,7 +652,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.png",
     "year": "2011",
     "genre": ["Adventure", "Role-playing (RPG)"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose. Play any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before. Skyrim's new game engine brings to life a complete virtual world with rolling clouds, rugged mountains, bustling cities, lush fields, and ancient dungeons. Choose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions. Battle ancient dragons like you've never seen. As Dragonborn, learn their secrets and harness their power for yourself."
   },
   {
@@ -660,7 +660,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co493k.png",
     "year": "2017",
     "genre": ["Adventure", "Indie", "Role-playing (RPG)", "Shooter", "Simulator"],
-    "platforms": ["Android", "Xbox One", "PlayStation 4", "Linux", "Mac", "iOS", "PC (Microsoft Windows)", "Nintendo Switch", "Google Stadia"],
+    "platform": ["Android", "Xbox One", "PlayStation 4", "Linux", "Mac", "iOS", "PC (Microsoft Windows)", "Nintendo Switch", "Google Stadia"],
     "description": "Ark: Survival Evolved takes on the survival genre with a unique blend of emergent multiplayer cooperation and competition. Players awake naked and starving on the beach of a mysterious island among a herd of other confused humans. On ARK, they must then hunt, harvest, craft, research technology, and build shelters to protect against scorching days, freezing nights, volatile weather systems, dangerous wildlife, and potential enemies. Use cunning strategy and tactics to tame and ride the many dinosaurs and other primeval creatures roaming the dynamic, persistent ecosystems across land, sea, air, and even underground. Build your characters strengths and gain items, skills, and pet creatures using in-depth role-playing systems. Start a tribe with hundreds of other players to survive and dominate competing tribes...and ultimately discover the ARKs true purpose."
   },
   {
@@ -668,7 +668,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.png",
     "year": "2020",
     "genre": ["Shooter"],
-    "platforms": ["Xbox One", "PlayStation 4", "PlayStation 5", "PC (Microsoft Windows)", "Nintendo Switch", "Xbox Series X|S", "Google Stadia"],
+    "platform": ["Xbox One", "PlayStation 4", "PlayStation 5", "PC (Microsoft Windows)", "Nintendo Switch", "Xbox Series X|S", "Google Stadia"],
     "description": "Hell's armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you. Set to an all-new pulse pounding soundtrack composed by Mick Gordon, take your vengeance against the forces of Hell as you slay new and classic demons with powerful weapons and abilities. Experience the ultimate combination of speed and power with the next leap in push-forward, first-person combat."
   },
   {
@@ -676,7 +676,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tc8.png",
     "year": "2006",
     "genre": ["Adventure", "Role-playing (RPG)"],
-    "platforms": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox 360", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "After the mysterious and untimely death of the Emperor, desperate factions vie for control of Tamriel's throne. With the empire ready to crumble, the gates of Oblivion open and demons march upon the land, laying waste to everything in their path. To turn the tide of darkness the player must find the lost heir to the throne and unravel the sinister plot that threatens to destroy all of Tamriel."
   },
   {
@@ -684,7 +684,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbb.png",
     "year": "2002",
     "genre": ["Adventure", "Racing", "Shooter"],
-    "platforms": ["Android", "PlayStation 4", "PlayStation 2", "Mac", "iOS", "Xbox", "PC (Microsoft Windows)"],
+    "platform": ["Android", "PlayStation 4", "PlayStation 2", "Mac", "iOS", "Xbox", "PC (Microsoft Windows)"],
     "description": "In the year 1986, Tommy Vercetti is heavily indebted to his mafia superiors after a drug deal gone awry, but his dreams of taking over Vice City (based on Miami) push him down a different path. Featuring a wide variety of vehicles and weapons, radio stations playing hit songs from the era and an intense atmosphere, GTA: Vice City is an open-world sandbox satire of '80's Miami."
   },
   {
@@ -692,7 +692,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pah.png",
     "year": "2000",
     "genre": ["Adventure"],
-    "platforms": ["Wii U", "Wii", "Nintendo 64"],
+    "platform": ["Wii U", "Wii", "Nintendo 64"],
     "description": "After the events of The Legend of Zelda: Ocarina of Time (1998), Link is assaulted by an imp named Skull Kid under the control of the evil Majora's Mask and gets stuck in a troubled land called Termina. Link must repeat the same 3 days, take on the identities of deceased people from other races, collect numerous masks and rid the land of evil to stop Majora from destroying the world in this third-person action/adventure game."
   },
   {
@@ -700,7 +700,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmz.png",
     "year": "2003",
     "genre": ["Adventure", "Role-playing (RPG)"],
-    "platforms": ["Android", "Mac", "iOS", "Xbox", "PC (Microsoft Windows)", "Nintendo Switch"],
+    "platform": ["Android", "Mac", "iOS", "Xbox", "PC (Microsoft Windows)", "Nintendo Switch"],
     "description": "Choose Your Path! Set 4,000 years before the Galactic Empire, you are the last hope for the Jedi Order and the Republic - can you master the ways of the Force to become their savior? Or will you fall to the dark side and achieve ultimate power? Hero, villain, peacekeeper, or chaos-bringer... you and your party will determine the fate of the galaxy! Star Wars: Knights of the Old Republic is a role-playing video game. Players will be able to create their own characters and be able to choose what gender, appearance, class, skills, attributes, and feats they have throughout the game - no two characters will be the same!"
   },
   {
@@ -708,7 +708,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21a6.png",
     "year": "2018",
     "genre": ["Adventure", "Shooter"],
-    "platforms": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)", "Google Stadia"],
+    "platform": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)", "Google Stadia"],
     "description": "Welcome to Hope County, Montana, land of the free and the brave, but also home to a fanatical doomsday cult known as The Project at Eden's Gate that is threatening the community's freedom. Stand up to the cult's leader, Joseph Seed and the Heralds, and spark the fires of resistance that will liberate the besieged community. In this expansive world, your limits and creativity will be tested against the biggest and most ruthless baddest enemy Far Cry has ever seen. It'll be wild and it'll get weird, but as long as you keep your wits about you, the residents of Hope County can rest assured knowing you're their beacon of hope."
   },
   {
@@ -716,7 +716,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24o5.png",
     "year": "2015",
     "genre": ["Adventure"],
-    "platforms": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
+    "platform": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
     "description": "The Mediterranean republic of Medici is suffering under the brutal control of General Di Ravello, a dictator with an insatiable appetite for power. Enter Rico Rodriguez, a man on a mission to destroy the General's hold on power by any means necessary. With over 400 square miles of complete freedom from sky to seabed and a huge arsenal of weaponry, gadgets and vehicles, prepare to unleash chaos in the most creative and explosive ways you can imagine."
   },
   {
@@ -724,7 +724,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tx.png",
     "year": "2009",
     "genre": ["Role-playing (RPG)", "Shooter"],
-    "platforms": ["Xbox One", "Xbox 360", "Mac", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["Xbox One", "Xbox 360", "Mac", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "With its addictive action, frantic first-person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is a breakthrough experience that challenges all the conventions of modern shooters. Borderlands places you in the role of a mercenary on the lawless and desolate planet of Pandora, hell-bent on finding a legendary stockpile of powerful alien technology known as The Vault."
   },
   {
@@ -732,7 +732,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24f2.png",
     "year": "2020",
     "genre": ["Adventure", "Role-playing (RPG)", "Simulator", "Strategy", "Tactical"],
-    "platforms": ["PC (Microsoft Windows)"],
+    "platform": ["PC (Microsoft Windows)"],
     "description": "Mount & Blade II: Bannerlord is the eagerly awaited sequel to the acclaimed medieval combat simulator and role-playing game Mount & Blade: Warband. Set 200 years before, it expands both the detailed fighting system and the world of Calradia. Bombard mountain fastnesses with siege engines, establish secret criminal empires in the back alleys of cities, or charge into the thick of chaotic battles in your quest for power."
   },
   {
@@ -740,7 +740,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ac5.png",
     "year": "1994",
     "genre": ["Shooter", "Simulator"],
-    "platforms": "Mac, PC DOS",
+    "platform": "Mac, PC DOS",
     "description": "Serve the Emperor, join the Imperial Navy, and save the galaxy. Become a recruit of the Imperial Navy under the command of Darth Vader, and pilot space vehicles that will leave you breathless. In the wake of the Battle of Hoth, through their treachery at Yavin, the alliance of Rebels and other criminals have threatened the very foundation of the peaceful Empire. The Imperial Navy is called upon to eradicate the last of the rebellion and restore law and order. As an Imperial navy starfighter pilot, you will safeguard imperiled lives thoughout the galaxy. Join the Emperor's cause in eliminating the Rebel uprising as the Empire strikes back!"
   },
   {
@@ -748,7 +748,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voc.png",
     "year": "2008",
     "genre": ["Adventure", "Platform", "Shooter"],
-    "platforms": ["PlayStation 2", "Xbox 360", "Mac", "Wii", "Web browser", "PC (Microsoft Windows)", "PlayStation 3"],
+    "platform": ["PlayStation 2", "Xbox 360", "Mac", "Wii", "Web browser", "PC (Microsoft Windows)", "PlayStation 3"],
     "description": "Tomb Raider: Underworld represents a new advancement in exploration-based gameplay. As fearless adventurer Lara Croft explore exotic locations around the world, each designed with an incredible attention to detail resulting in breathtaking high-definition visual fidelity that creates a truly believable world and delivers a new level of challenge and choice. Reach new heights with the broadest range of acrobatic abilities and utilize objects within the environment to uncover new paths to explore. Discover ancient mysteries of the underworld hidden within the coast of Thailand, frozen islands of the Arctic Sea, the jungles of Mexico, and more."
   },
   {
@@ -756,7 +756,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wjo.png",
     "year": "1982",
     "genre": ["Arcade", "Puzzle"],
-    "platforms": ["Atari 8-bit", "Texas Instruments TI-99", "Sega Genesis", "Nintendo Entertainment System (NES)", "ZX Spectrum", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Commodore C64/128", "Sega Game Gear", "Atari Lynx", "Sega Master System", "Atari 5200", "Atari 2600", "Atari 7800", "Commodore VIC-20", "Apple II", "Arcade"],
+    "platform": ["Atari 8-bit", "Texas Instruments TI-99", "Sega Genesis", "Nintendo Entertainment System (NES)", "ZX Spectrum", "Super Nintendo Entertainment System (SNES)", "PC DOS", "Commodore C64/128", "Sega Game Gear", "Atari Lynx", "Sega Master System", "Atari 5200", "Atari 2600", "Atari 7800", "Commodore VIC-20", "Apple II", "Arcade"],
     "description": "In 1982, a sequel to the incredibly popular Pac-Man was introduced in the form of his girlfriend, Ms. Pac-Man. This sequel continued on the 'eat the dots/avoid the ghosts' gameplay of the original game, but added new features to keep the title fresh. Like her boyfriend, Ms. Pac-Man attempts to clear four various and challenging mazes filled with dots and ever-moving bouncing fruit while avoiding Inky, Blinky, Pinky and Sue, each with their own personalities and tactics. One touch from any of these ghosts means a loss of life for Ms. Pac-Man. Ms. Pac-Man can turn the tables on her pursuers by eating one of the four Energizers located within the maze. During this time, the ghosts turn blue, and Ms. Pac-Man can eat them for bonus points. The Energizer power only lasts for a limited amount of time, as the ghost's eyes float back to their center box, and regenerate to chase after Ms. Pac-Man again. Survive a few rounds of gameplay, and the player will be treated to humorous intermissions showing the growing romantic relationship between Pac-Man and Ms. Pac-Man, leading all the way up to the arrival of 'Junior'."
   },
   {
@@ -764,7 +764,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rpc.png",
     "year": "1993",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["Sega Genesis", "Wii", "PlayStation 3"],
+    "platform": ["Sega Genesis", "Wii", "PlayStation 3"],
     "description": "ToeJam & Earl in Panic on Funkotron is a platform video game, developed by Johnson Voorsanger Productions and published by Sega in 1993 for the Mega Drive. The game is the sequel to cult video game ToeJam & Earl, released in 1991. The game concerns two alien protagonists, ToeJam and Earl, both of whom have escaped from Earth, where they had crash landed. After returning to their home planet of Funkotron, the duo discover a number of antagonistic Earthlings have stowed away on the spacecraft and are wreaking havoc across the planet. The player must hunt down these Earthlings and imprison them in jars before sending them back to Earth."
   },
   {
@@ -772,7 +772,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v7f.png",
     "year": "1993",
     "genre": ["Shooter"],
-    "platforms": ["Xbox One", "Sega Saturn", "PlayStation 4", "Linux", "Xbox 360", "Mac", "Game Boy Advance", "Sega 32X", "iOS", "Super Famicom", "Atari Jaguar", "Super Nintendo Entertainment System (SNES)", "PC DOS", "3DO Interactive Multiplayer", "PC (Microsoft Windows)", "Nintendo Switch"],
+    "platform": ["Xbox One", "Sega Saturn", "PlayStation 4", "Linux", "Xbox 360", "Mac", "Game Boy Advance", "Sega 32X", "iOS", "Super Famicom", "Atari Jaguar", "Super Nintendo Entertainment System (SNES)", "PC DOS", "3DO Interactive Multiplayer", "PC (Microsoft Windows)", "Nintendo Switch"],
     "description": "In the future, humans have left Earth and settled throughout the galaxy. On Mars, the Union Aerospace Corporation has established a radioactive waste facility and allowed the military to conduct teleportation experiments on the nearby moons of Deimos and Phobos. Hours ago, the base on Mars began receiving incoherent distress messages from Phobos, while Deimos has disappeared completely. With all attempts to establish contact failing, you and your team have been dispatched to investigate. Upon arrival, you secure the perimeter as the rest of your team enters the facility. As you stand guard, your radio crackles with the sound of gunfire, cracking bones and blood-curdling screams and eventually falls silent. Alone, with no way off the planet or means to defend yourself other than your trusty pistol, there's only one way out - into the complex of death and the horrors that await you within. If you plan to get out of here alive you must fend off the hordes of demonic imps, haunting spectres and your undead, former comrades waiting to tear you limb from limb. So, grab the nearest shotgun and blast your way out of this fragging madness!"
   },
   {
@@ -780,7 +780,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1re9.png",
     "year": "2016",
     "genre": ["Adventure", "Indie", "Role-playing (RPG)", "Simulator", "Strategy"],
-    "platforms": ["PC (Microsoft Windows)"],
+    "platform": ["PC (Microsoft Windows)"],
     "description": "Force of Nature is an indie open world sandbox game with fighting, crafting, building and farming systems."
   },
   {
@@ -788,7 +788,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xr4.png",
     "year": "2021",
     "genre": ["Arcade"],
-    "platforms": ["Nintendo Switch"],
+    "platform": ["Nintendo Switch"],
     "description": "40 years after the classic Pac-phenomenon rocked the gaming world, PAC-MAN is back in a new 99-man battle royale. Get back in the maze and chase down the iconic ghosts. Who will be the last PAC-MAN standing?"
   },
   {
@@ -796,7 +796,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v3p.png",
     "year": "1991",
     "genre": ["Platform", "Shooter"],
-    "platforms": ["Mac", "PC DOS", "PC (Microsoft Windows)"],
+    "platform": ["Mac", "PC DOS", "PC (Microsoft Windows)"],
     "description": "Duke Nukem is the debut of the world's greatest wise-cracking, alien-punching, gun-toting badass - a man who would later go on to combine both ass-kicking and bubblegum in a revolutionary way. In a world ravaged by Dr. Proton's villainous ambitions, the original video game action hero must rise against the evil scientist's army of sinister Techbots. And although Duke isn't exactly what the Doctor ordered, he's exactly what the world needed."
   },
   {
@@ -804,7 +804,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nh1.png",
     "year": "2015",
     "genre": ["Adventure", "Hack and slash/Beat 'em up"],
-    "platforms": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
+    "platform": ["Xbox One", "PlayStation 4", "PC (Microsoft Windows)"],
     "description": "Batman: Arkham Knight brings the award-winning Arkham trilogy from Rocksteady Studios to its epic conclusion. Developed exclusively for New-Gen platforms, Batman: Arkham Knight introduces Rocksteady's uniquely designed version of the Batmobile. The highly anticipated addition of this legendary vehicle, combined with the acclaimed gameplay of the Arkham series, offers gamers the ultimate and complete Batman experience as they tear through the streets and soar across the skyline of the entirety of Gotham City. In this explosive finale, Batman faces the ultimate threat against the city that he is sworn to protect, as Scarecrow returns to unite the super criminals of Gotham and destroy the Batman forever."
   },
   {
@@ -812,7 +812,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tzg.png",
     "year": "1996",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["PlayStation Portable", "PlayStation", "PlayStation 3"],
+    "platform": ["PlayStation Portable", "PlayStation", "PlayStation 3"],
     "description": "Crash Bandicoot is the first installment in the Crash Bandicoot series, chronicling the creation of the title character at the hands of series antagonist Doctor Neo Cortex and henchman Doctor Nitrus Brio. Players control the titular protagonist, Crash, as he traverses several levels in sequence in order to progress. Crash is able to defeat enemies by either jumping on them or using a spinning attack that launches them. Crash will lose a life if he is hit by an enemy or obstacle, or falls into a bottomless pit. Crash can protect himself by collecting Aku Aku masks, which protect Crash from a single hit from an enemy or obstacle (but not pits or other instant-death obstacles). Crash can hold onto two masks at a time and, upon collecting a third mask, will gain temporary invincibility. The game ends when the player runs out of lives, with more lives earned by finding extra life items or by collecting 100 Wumpa Fruits."
   },
   {
@@ -820,7 +820,7 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2agh.png",
     "year": "2009",
     "genre": ["Adventure", "Platform"],
-    "platforms": ["PlayStation 2", "PlayStation Portable"],
+    "platform": ["PlayStation 2", "PlayStation Portable"],
     "description": "When their world begins to run out of Eco, Jak and Keira travel to the edge of the world in search of the ancient Precursor machinery that could reverse the planet's decline. They're not the only interested factions out on the Brink, however; Jak must contend with Sky Pirates while struggling to control his own Eco powers."
   }  
 ]  
