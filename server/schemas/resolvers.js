@@ -13,7 +13,13 @@ const resolvers = {
       }
       throw new AuthenticationError("Not logged in");
     },
-  },
+    game: async (parent, args, context) => {
+      const allGames = await Game.find({});
+      // console.log(allGames);
+      return allGames;
+
+    }
+  },  
   Mutation: {
     addUser: async (parent, args) => {
       const user = await User.create(args);

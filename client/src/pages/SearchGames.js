@@ -10,11 +10,12 @@ import {
 } from "react-bootstrap";
 
 import Auth from "../utils/auth";
-// import { searchIGDB } from "../utils/API";
+import { searchGames } from "../utils/API";
 import { saveGameIds, getSavedGameIds } from "../utils/localStorage";
-import { useMutation } from "@apollo/react-hooks";
+
+import { useQuery, useMutation } from "@apollo/react-hooks";
 import { SAVE_GAME } from "../utils/mutations";
-import { GET_ME } from "../utils/queries";
+import { GET_ME, GET_ALL_GAMES, GET_GAME } from "../utils/queries";
 
 const SearchGames = () => {
   // create state for holding returned IGDB api data
@@ -27,6 +28,9 @@ const SearchGames = () => {
 
   // define the save game function from the mutation
   const [saveGame] = useMutation(SAVE_GAME);
+  const { loading, data, error } = useQuery(GET_ALL_GAMES);
+
+  console.log(loading,data, error);
 
   // set up useEffect hook to save `savedGameIds` list to localStorage on component unmount
   // learn more here: https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup
@@ -35,34 +39,34 @@ const SearchGames = () => {
   });
 
   // create method to search for games and set state on form submit
-  // const handleFormSubmit = async (event) => {
-  //   event.preventDefault();
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
 
-  //   if (!searchInput) {
-  //     return false;
-  //   }
+    if (!searchInput) {
+      return false;
+    }
 
-  //   try {
-  //     const response = await searchIGDB(searchInput);
+    try {
+      const response = await searchGames(searchInput);
 
-  //     if (!response.ok) {
-  //       throw new Error("something went wrong!");
-  //     }
+      if (!response.ok) {
+        throw new Error("something went wrong!");
+      }
 
-  //     const { items } = await response.json();
+      const { items } = await response.json();
 
-  //     const gameData = items.map((game) => ({
-  //       gameId: game.id,
-  //       gameName: game.name,
-  //       cover: game.cover.url,
-  //     }));
+      const gameData = items.map((game) => ({
+        gameId: game.id,
+        gameName: game.name,
+        cover: game.cover.url,
+      }));
 
-  //     setSearchedGames(gameData);
-  //     setSearchInput("");
-  //   } catch (err) {
-  //     console.error(err);
-  //   }
-  // };
+      setSearchedGames(gameData);
+      setSearchInput("");
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
   // create function to handle saving a game to our database
   const handleSaveGame = async (gameId) => {
@@ -102,7 +106,7 @@ const SearchGames = () => {
       <Jumbotron fluid className="text-light bg-dark">
         <Container>
           <h1>Search for Games!</h1>
-          {/* <Form onSubmit={handleFormSubmit}>
+          <Form onSubmit={handleFormSubmit}>
             <Form.Row>
               <Col xs={12} md={8}>
                 <Form.Control
@@ -120,7 +124,7 @@ const SearchGames = () => {
                 </Button>
               </Col>
             </Form.Row>
-          </Form> */}
+          </Form>
         </Container>
       </Jumbotron>
 
