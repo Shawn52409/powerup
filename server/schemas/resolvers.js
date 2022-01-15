@@ -17,9 +17,11 @@ const resolvers = {
       const allGames = await Game.find({});
       // console.log(allGames);
       return allGames;
-
-    }
-  },  
+    },
+    getOneGame: async (parent, { gameID }) => {
+      return await Game.findOne({ _id: gameID });
+    },
+  },
   Mutation: {
     addUser: async (parent, args) => {
       const user = await User.create(args);
