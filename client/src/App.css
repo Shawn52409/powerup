@@ -6,7 +6,7 @@
 } */
 
 .h1-custom {
-  font-size: 5rem;
+  font-size: 3rem;
   color: aliceblue;
   font-family: 'Press Start 2P', cursive, sans-serif;
 }
@@ -16,7 +16,19 @@
 }
 
 .img-smaller{
-  max-height: 5rem;
+  max-height: 5em;
+}
+
+@media screen and (max-width: 576px) {
+  .img-smaller{
+    max-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .img-smaller{
+    display: none;
+  }
 }
 
 /* .login {
