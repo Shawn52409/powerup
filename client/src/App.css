@@ -3,6 +3,16 @@
   font-size: 3rem;
   color: aliceblue;
   font-family: 'Press Start 2P', cursive, sans-serif;
+  animation-duration: 10s;
+  animation-name: retro;
+  animation-iteration-count: infinite;
+}
+
+@keyframes retro {
+  0% {color: red;}
+  30% {color: yellow;}
+  60% {color: white}
+  100% {color:indigo;}
 }
 
 .powerup-font{
@@ -12,6 +22,10 @@
 /* Icon styling for the navbar */
 .img-smaller{
   max-height: 5em;
+}
+
+.img-spin{
+  animation: spin 4s linear 0s infinite normal;
 }
 
 @media screen and (max-width: 576px) {
@@ -26,10 +40,29 @@
   }
 }
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(36deg); }
+  20% { transform: rotate(72deg); }
+  30% { transform: rotate(108deg); }
+  40% { transform: rotate(144deg); }
+  50% { transform: rotate(180deg); }
+  60% { transform: rotate(216deg); }
+  70% { transform:rotate(252deg); }
+  80% { transform:  rotate(288deg); }
+  90% { transform: rotate(324deg); }
+  100% { transform: rotate(360deg); }
+}
+
 /* Custom CSS for the cards on the homepage */
+.card-hover:hover{
+  animation: shake 0.6s;
+  animation-iteration-count: infinite;
+}
 .card-equality{
   min-height: 21rem;
   max-width: 15rem;
+  background: linear-gradient(180deg, #0001FC 0%, #0f0fc7 80%,#1e1e9a 100%);
 }
 
 .card-image-size{
@@ -53,4 +86,18 @@
   .card-equality{
     min-width: 15rem;
   }
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }

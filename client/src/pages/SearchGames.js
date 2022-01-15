@@ -16,7 +16,7 @@ const SearchGames = () => {
         {data.game.map((game) => {
           return (
             <NavLink to={{ pathname: `/game/${game._id}`, data: data }}>
-              <Card key={game._id} border="dark" className="text-light p-1 bg-dark m-2 card-equality">
+              <Card key={game._id} border="dark" className="text-light p-1 m-2 card-equality card-hover">
                 {game.cover ? (
                   <Card.Img
                     src={game.cover}
