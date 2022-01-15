@@ -6,6 +6,11 @@ const typeDefs = gql`
     _id: ID
     gameName: String
     cover: String
+    year: String
+    genre: [String]
+    platform: [String]
+    description: String
+    likes: String
   }
   type User {
     _id: ID
@@ -16,6 +21,8 @@ const typeDefs = gql`
   }
   type Query {
     me: User
+    game: [Game]
+    getOneGame: Game
   }
   type Auth {
     token: ID!

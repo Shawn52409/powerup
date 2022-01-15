@@ -13,6 +13,14 @@ const resolvers = {
       }
       throw new AuthenticationError("Not logged in");
     },
+    game: async (parent, args, context) => {
+      const allGames = await Game.find({});
+      // console.log(allGames);
+      return allGames;
+    },
+    getOneGame: async (parent, { gameID }) => {
+      return await Game.findOne({ _id: gameID });
+    },
   },
   Mutation: {
     addUser: async (parent, args) => {

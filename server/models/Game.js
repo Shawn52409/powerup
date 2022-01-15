@@ -37,6 +37,11 @@ const gameSchema = new Schema({
         required: false,
         trim: true
     },  
+    likes: {
+        type: String,
+        required: false,
+        trim: true
+    },  
 });
 
 const Game = model('Game', gameSchema);
