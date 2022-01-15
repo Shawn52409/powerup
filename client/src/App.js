@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import GamePage from "./pages/GamePage";
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -34,6 +35,7 @@ function App() {
             <Route exact path="/mygames" component={SavedGames} />
             <Route exact path="/signup" component={Signup} />
             <Route exact path="/login" component={Login} />
+            <Route exact path="/game/:id" component={GamePage} />
             <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
           </Switch>
         </>
