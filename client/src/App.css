@@ -1,10 +1,4 @@
-/* Homepage */
-
-/* .homepage {
-  background-color: black;
-  color: white;
-} */
-
+/* Header */
 .h1-custom {
   font-size: 3rem;
   color: aliceblue;
@@ -15,6 +9,7 @@
   font-family: 'Press Start 2P', cursive, sans-serif;
 }
 
+/* Icon styling for the navbar */
 .img-smaller{
   max-height: 5em;
 }
@@ -31,10 +26,31 @@
   }
 }
 
-/* .login {
-  background-color: chartreuse;
+/* Custom CSS for the cards on the homepage */
+.card-equality{
+  min-height: 21rem;
+  max-width: 15rem;
 }
 
-.navbar-custom{
-  margin-left: auto;
-} */
+.card-image-size{
+  max-height: 15rem;
+  min-height: auto;
+}
+
+@media screen and (max-width: 455px) {
+  .card-equality{
+    min-width: 15rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card-equality{
+    min-width: 15rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-equality{
+    min-width: 15rem;
+  }
+}
