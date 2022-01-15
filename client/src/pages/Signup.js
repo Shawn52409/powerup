@@ -59,6 +59,7 @@ const Signup = () => {
         onSubmit={handleFormSubmit}
         className="container-fluid border my-5 p-4 w-50 bg-light"
       >
+
         {/* show alert if server response is bad */}
         <Alert
           dismissible
@@ -130,6 +131,7 @@ const Signup = () => {
         ></img>
       </div>
     </>
+
   );
 };
 
