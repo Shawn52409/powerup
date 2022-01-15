@@ -5,16 +5,48 @@ import { GET_ME, GET_ALL_GAMES, GET_ONE_GAME } from "../utils/queries";
 import { Container, CardColumns, Card, Row, Button } from "react-bootstrap";
 
 const GamePage = () => {
+  
   const { _id: gameParam } = useParams();
-  console.log(gameParam);
-
   const { loading, data, error } = useQuery(GET_ONE_GAME, {
     variables: { _id: gameParam },
   });
-  console.log("I'm on the game page");
-  console.log(data);
+  
+  
+  // const handleSaveGame = async (gameId) => {
+  //   // find the game in `searchedGames` state by the matching id
+  //   const gameToSave = searchedGames.find((game) => game.gameId === gameId);
+    
+  //   // get token
+  //   const token = Auth.loggedIn() ? Auth.getToken() : null;
+    
+  //   if (!token) {
+  //     return false;
+  //   }
+    
+  //   try {
+  //     await saveGame({
+  //       variables: { game: gameToSave },
+  //       update: (cache) => {
+  //         const { me } = cache.readQuery({ query: GET_ME });
+  //         // console.log(me)
+  //         // console.log(me.savedGames)
+  //         cache.writeQuery({
+  //           query: GET_ME,
+  //           data: { me: { ...me, savedGames: [...me.savedGames, gameToSave] } },
+  //         });
+  //       },
+  //     });
+      
+  //     // if game successfully saves to user's account, save game id to state
+  //     setSavedGameIds([...savedGameIds, gameToSave.gameId]);
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // };
+  // If no data then wait for data
   if(!data){
     return(<div>Loading...</div>)}
+  
   return (
     <Container>
       <Row>
@@ -28,7 +60,18 @@ const GamePage = () => {
             <p className=""><b>Genre:</b> {data.getOneGame.genre}</p>
             <p className=""><b>Platforms:</b> {data.getOneGame.platform}</p>
             <p className=""><b>Description:</b> {data.getOneGame.description}</p>
-            <button>Save Game</button>
+            {/* {Auth.loggedIn() && (
+                    <Button disabled={savedGameIds?.some((savedGameId) => savedGameId === data.getOneGame._id)}
+                      className="btn-block btn-info"
+                      onClick={() => handleSaveGame(data.getOneGame._id)}
+                    > Save Game
+                      {savedGameIds?.some(
+                        (savedGameId) => savedGameId === data.getOneGame._id
+                      )
+                        ? "This game has been saved!"
+                        : "Save this Game!"}
+                    </Button>
+                  )} */}
           </div>
         </div>
       </Row>
