@@ -1,7 +1,7 @@
 # Power Up
 
 # Links 
-Heroku:  <br> 
+Heroku:  https://powerup-game-app.herokuapp.com/<br> 
 GitHub: https://github.com/Shawn52409/powerup
 
 # Table of Contents
