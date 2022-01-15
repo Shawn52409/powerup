@@ -1,6 +1,9 @@
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
 import { GET_ME } from "../utils/queries";
+import { NavLink } from "react-router-dom";
+import { Container, CardColumns, Card, Row, Button } from "react-bootstrap";
+
 
 const SavedGames = () => {
   const { data } = useQuery(GET_ME);
@@ -8,13 +11,16 @@ const SavedGames = () => {
   console.log(userData);
 
   if (!userData?.username) {
-    return <h4>You need to be logged in to see this page!</h4>;
+    return <h1 className="text-center">You need to be logged in to see this page!</h1>;
+    
   }
-
+console.log(userData);
   return (
-    <h1>
+    <div>
+    <h1 className="text-center">
       Welcome {userData.username}! You have {userData.gameCount} games saved!
     </h1>
+      </div>
   );
 };
 
