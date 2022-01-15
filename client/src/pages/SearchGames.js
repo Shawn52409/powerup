@@ -12,7 +12,7 @@ const SearchGames = () => {
   if (error) return <div>something went wrong</div>;
   return (
     <Container fluid>
-      <div className="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+      <div className="row rows-cols-sm-1 row-cols-lg-6 g-2 g-lg-3">
         {data.game.map((game) => {
           return (
             <NavLink to={{ pathname: `/game/${game._id}`, data: data }}>
