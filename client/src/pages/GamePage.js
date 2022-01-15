@@ -13,7 +13,8 @@ const GamePage = () => {
   });
   console.log("I'm on the game page");
   console.log(data);
-
+  if(!data){
+    return(<div>Loading...</div>)}
   return (
     <Container>
       <Row>
@@ -22,6 +23,7 @@ const GamePage = () => {
             <h2 className="text-center">Game Title</h2>
           </div>
           <div>Cover Image</div>
+          <img src={data.getOneGame.cover}></img>
         </div>
       </Row>
     </Container>

@@ -18,8 +18,9 @@ const resolvers = {
       // console.log(allGames);
       return allGames;
     },
-    getOneGame: async (parent, { gameID }) => {
-      return await Game.findOne({ _id: gameID });
+    getOneGame: async (parent, { _id }) => {
+      console.log(_id)
+      return await Game.findOne({ _id: _id });
     },
   },
   Mutation: {
