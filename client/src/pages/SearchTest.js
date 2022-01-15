@@ -175,3 +175,6 @@ const SearchGames = () => {
 };
 
 export default SearchGames;
+
+
+to={{ pathname: `/game/${game._id}`, data: data }}
