@@ -29,8 +29,8 @@ export const GET_ALL_GAMES = gql`
   }
 `;
 export const GET_ONE_GAME = gql`
-  query getOneGame($gameID: ID!) {
-    game(gameID: $gameID) {
+  query getOneGame($_id: String) {
+    getOneGame(_id: $_id) {
       _id
       gameName
       cover
