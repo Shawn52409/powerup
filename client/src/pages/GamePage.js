@@ -19,11 +19,17 @@ const GamePage = () => {
     <Container>
       <Row>
         <div className="col-md-6">
+          <img className="container-fluid" src={data.getOneGame.cover}></img>
+        </div>
+        <div className="col-md-6">
           <div className="card title">
-            <h2 className="text-center">Game Title</h2>
+            <h1 className="text-center">{data.getOneGame.gameName}</h1>
+            <h2 className="text-center">{data.getOneGame.year}</h2>
+            <p className=""><b>Genre:</b> {data.getOneGame.genre}</p>
+            <p className=""><b>Platforms:</b> {data.getOneGame.platform}</p>
+            <p className=""><b>Description:</b> {data.getOneGame.description}</p>
+            <button>Save Game</button>
           </div>
-          <div>Cover Image</div>
-          <img src={data.getOneGame.cover}></img>
         </div>
       </Row>
     </Container>
