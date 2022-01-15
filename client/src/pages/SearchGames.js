@@ -11,21 +11,22 @@ const SearchGames = () => {
 
   if (error) return <div>something went wrong</div>;
   return (
-    <Container fluid>
-      <div className="row rows-cols-sm-1 row-cols-lg-6 g-2 g-lg-3">
+    <Container fluid className="mt-4 justify-content-center">
+      <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
         {data.game.map((game) => {
           return (
             <NavLink to={{ pathname: `/game/${game._id}`, data: data }}>
-              <Card key={game._id} border="dark" className="p-2">
+              <Card key={game._id} border="dark" className="text-light p-1 m-2 card-equality card-hover">
                 {game.cover ? (
                   <Card.Img
                     src={game.cover}
                     alt={`The cover for ${game.gameName}`}
                     variant="top"
                     style={{}}
+                    className="card-image-size"
                   />
-                ) : null}
-                <Card.Title className="text-center">{game.gameName}</Card.Title>
+                ) : <div>Image Not Available</div>}
+                <Card.Title className="text-center pt-1">{game.gameName}</Card.Title>
               </Card>
             </NavLink>
           );
