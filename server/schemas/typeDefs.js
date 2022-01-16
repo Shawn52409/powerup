@@ -10,7 +10,7 @@ const typeDefs = gql`
     genre: [String]
     platform: [String]
     description: String
-    likes: String
+    savedGames: [Game]!
   }
   type User {
     _id: ID
@@ -33,7 +33,6 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
     saveGame(gameId: String!): User
-    removeGame(gameId: String!): User
   }
 `;
 

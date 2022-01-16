@@ -9,11 +9,12 @@ const resolvers = {
         const userData = await User.findOne({ _id: context.user._id }).select(
           "-__v -password"
         );
-        console.log(userData)
-        const savedGames = await Game.find({
-          _id: {$in: userData.savedGames}
-        })
-        return {...userData, savedGames};
+        return userData;
+        // console.log(userData)
+        // const savedGames = await Game.find({
+        //   _id: {$in: userData.savedGames}
+        // })
+        // return {...userData, savedGames};
       }
       throw new AuthenticationError("Not logged in");
     },
@@ -47,7 +48,7 @@ const resolvers = {
       return { token, user };
     },
     saveGame: async (parent, { gameId }, context) => {
-      console.log(gameId);
+      // console.log(gameId);
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
@@ -61,16 +62,6 @@ const resolvers = {
         return {...updatedUser, savedGames};
       }
       throw new AuthenticationError("You need to be logged in!");
-    },
-    removeGame: async (parent, { gameId }, context) => {
-      if (context.user) {
-        const updatedUser = await User.findOneAndUpdate(
-          { _id: context.user._id },
-          { $pull: { savedGames: { gameId: gameId } } },
-          { new: true }
-        );
-        return updatedUser;
-      }
     },
   },
 };
