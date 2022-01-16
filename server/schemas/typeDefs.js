@@ -10,7 +10,6 @@ const typeDefs = gql`
     genre: [String]
     platform: [String]
     description: String
-    savedGames: [Game]!
   }
   type User {
     _id: ID
