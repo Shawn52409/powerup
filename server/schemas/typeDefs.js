@@ -10,7 +10,6 @@ const typeDefs = gql`
     genre: [String]
     platform: [String]
     description: String
-    likes: String
   }
   type User {
     _id: ID
@@ -22,21 +21,17 @@ const typeDefs = gql`
   type Query {
     me: User
     game: [Game]
-    getOneGame: Game
+    getOneGame(_id:String): Game
   }
   type Auth {
     token: ID!
     user: User
   }
-  input SavedGameInput {
-    gameName: String
-    cover: String
-  }
+
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    saveGame(game: SavedGameInput): User
-    removeGame(gameId: String!): User
+    saveGame(gameId: String!): User
   }
 `;
 

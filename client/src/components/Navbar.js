@@ -5,7 +5,7 @@ import auth from "../utils/auth";
 
 const Nav = () => {
   return (
-    <div className=" powerup-font container-fluid bg-danger justify-content-center align-items-center py-2">
+    <div className="powerup-font container-fluid bg-danger justify-content-center align-items-center py-2">
       <ul className="text-light navbar-custom nav justify-content-center py-2">
         <li className="nav-item">
           <NavLink
@@ -63,13 +63,13 @@ const Nav = () => {
       </ul>
       <div className="d-flex justify-content-center py-3">
         <img
-          className="text-center img-smaller"
+          className="text-center img-fluid img-smaller img-spin"
           src={questionBlock}
           alt="Question Block"
         ></img>
-        <h1 className="mx-4 h1-custom px-4 me-5 text-center">Power Up</h1>
+        <h1 className="mx-4 fs-5 h1-custom px-4 me-5 text-center">Power Up</h1>
         <img
-          className="text-center img-smaller"
+          className="text-center img-fluid img-smaller img-spin"
           src={questionBlock}
           alt="Question Block"
         ></img>

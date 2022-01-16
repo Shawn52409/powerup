@@ -25,29 +25,12 @@ export const ADD_USER = gql`
 `;
 
 export const SAVE_GAME = gql`
-  mutation saveGame($game: SavedGameInput!) {
-    saveGame(game: $game) {
-      username
-      email
-      gameCount
+  mutation saveGame($gameId: String!) {
+    saveGame(gameId: $gameId) {
       savedGames {
-        gameName
-        cover
+        _id
       }
     }
   }
 `;
 
-export const REMOVE_GAME = gql`
-  mutation removeGame($gameId: String!) {
-    removeGame(gameId: $gameId) {
-      username
-      email
-      gameCount
-      savedGames {
-        gameName
-        cover
-      }
-    }
-  }
-`;

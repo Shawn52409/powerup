@@ -1,20 +1,58 @@
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
 import { GET_ME } from "../utils/queries";
+import { NavLink } from "react-router-dom";
+import { Container, Card } from "react-bootstrap";
+
+
 
 const SavedGames = () => {
   const { data } = useQuery(GET_ME);
   const userData = data?.me || {};
-  console.log(userData);
+  // console.log(userData);
 
   if (!userData?.username) {
-    return <h4>You need to be logged in to see this page!</h4>;
+    return (
+      <h1 className="text-center">
+        You need to be logged in to see this page!
+      </h1>
+    );
   }
-
+  console.log(userData);
   return (
-    <h1>
+  <Container fluid className="mt-4 justify-content-center">
+    <h1 className="text-center">
       Welcome {userData.username}! You have {userData.gameCount} games saved!
     </h1>
+    <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
+      {userData.savedGames.map((savedGames) => {
+      return (
+        <NavLink to={{ pathname: `/game/${savedGames._id}`, userData: userData }}>
+          <Card
+            key={savedGames._id}
+            border="dark"
+            className="text-light p-1 m-2 card-equality card-hover"
+            >
+            {savedGames.cover ? (
+            <Card.Img
+            src={savedGames.cover}
+            alt={`The cover for ${savedGames.gameName}`}
+            variant="top"
+            style={{}}
+            className="card-image-size"
+            />
+            ) : (
+            <div>Image Not Available</div>
+            )}
+            <Card.Title className="text-center pt-1">
+            {savedGames.gameName}
+            </Card.Title>
+          </Card>
+        </NavLink>
+        );
+      })}
+    </div>
+  </Container>
   );
 };
 

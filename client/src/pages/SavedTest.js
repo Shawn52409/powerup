@@ -121,3 +121,32 @@ const SavedGames = () => {
 };
 
 export default SavedGames;
+
+    // <div>
+    //   <h1 className="text-center">
+    //     Welcome {userData.username}! You have {userData.gameCount} games saved!
+    //     {/* {userData.savedGames[0]._id}
+    //   {userData.savedGames[0].gameName} */}
+    //   </h1>
+    //   <Card
+    //     key={userData.savedGames._id}
+    //     border="dark"
+    //     className="text-light p-1 m-2 card-equality card-hover"
+    //   >
+    //     {userData.savedGames[0].cover ? (
+    //       <Card.Img
+    //         src={userData.savedGames[0].cover}
+    //         alt={`The cover for ${userData.savedGames[0].gameName}`}
+    //         variant="top"
+    //         style={{}}
+    //         className="card-image-size"
+    //       />
+    //     ) : (
+    //       <div>Image Not Available</div>
+    //     )}
+    //     <Card.Title className="text-center pt-1">
+    //       {userData.savedGames[0].gameName}
+    //     </Card.Title>
+    //   </Card>
+    // </div>
+

@@ -1,8 +1,8 @@
 import React from "react";
-import { useQuery, useMutation } from "@apollo/react-hooks";
-import { GET_ME, GET_ALL_GAMES, GET_GAME } from "../utils/queries";
+import { useQuery } from "@apollo/react-hooks";
+import { GET_ALL_GAMES } from "../utils/queries";
 import { NavLink } from "react-router-dom";
-import { Container, CardColumns, Card, Row, Button } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 
 const SearchGames = () => {
   const { loading, data, error } = useQuery(GET_ALL_GAMES);
@@ -11,21 +11,30 @@ const SearchGames = () => {
 
   if (error) return <div>something went wrong</div>;
   return (
-    <Container fluid>
-      <div className="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+    <Container fluid className="mt-4 justify-content-center">
+      <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
         {data.game.map((game) => {
           return (
             <NavLink to={{ pathname: `/game/${game._id}`, data: data }}>
-              <Card key={game._id} border="dark" className="p-2">
+              <Card
+                key={game._id}
+                border="dark"
+                className="text-light p-1 m-2 card-equality card-hover"
+              >
                 {game.cover ? (
                   <Card.Img
                     src={game.cover}
                     alt={`The cover for ${game.gameName}`}
                     variant="top"
                     style={{}}
+                    className="card-image-size"
                   />
-                ) : null}
-                <Card.Title className="text-center">{game.gameName}</Card.Title>
+                ) : (
+                  <div>Image Not Available</div>
+                )}
+                <Card.Title className="text-center pt-1">
+                  {game.gameName}
+                </Card.Title>
               </Card>
             </NavLink>
           );

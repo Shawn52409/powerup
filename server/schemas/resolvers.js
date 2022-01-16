@@ -10,6 +10,11 @@ const resolvers = {
           "-__v -password"
         );
         return userData;
+        // console.log(userData)
+        // const savedGames = await Game.find({
+        //   _id: {$in: userData.savedGames}
+        // })
+        // return {...userData, savedGames};
       }
       throw new AuthenticationError("Not logged in");
     },
@@ -18,8 +23,9 @@ const resolvers = {
       // console.log(allGames);
       return allGames;
     },
-    getOneGame: async (parent, { gameID }) => {
-      return await Game.findOne({ _id: gameID });
+    getOneGame: async (parent, { _id }) => {
+      console.log(_id)
+      return await Game.findOne({ _id: _id });
     },
   },
   Mutation: {
@@ -41,26 +47,21 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
-    saveGame: async (parent, { game }, context) => {
+    saveGame: async (parent, { gameId }, context) => {
+      // console.log(gameId);
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { savedGames: game } },
-          { new: true }
+          { $addToSet: { savedGames: gameId } },
+          { new: true }          
         );
-        return updatedUser;
+        const savedGames = await Game.find({
+          _id: {$in: updatedUser.savedGames}
+        })
+        console.log(updatedUser);
+        return {...updatedUser, savedGames};
       }
       throw new AuthenticationError("You need to be logged in!");
-    },
-    removeGame: async (parent, { gameId }, context) => {
-      if (context.user) {
-        const updatedUser = await User.findOneAndUpdate(
-          { _id: context.user._id },
-          { $pull: { savedGames: { gameId: gameId } } },
-          { new: true }
-        );
-        return updatedUser;
-      }
     },
   },
 };
