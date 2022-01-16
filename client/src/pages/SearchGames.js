@@ -1,8 +1,8 @@
 import React from "react";
-import { useQuery, useMutation } from "@apollo/react-hooks";
-import { GET_ME, GET_ALL_GAMES, GET_GAME } from "../utils/queries";
+import { useQuery } from "@apollo/react-hooks";
+import { GET_ALL_GAMES } from "../utils/queries";
 import { NavLink } from "react-router-dom";
-import { Container, CardColumns, Card, Row, Button } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 
 const SearchGames = () => {
   const { loading, data, error } = useQuery(GET_ALL_GAMES);
@@ -16,7 +16,11 @@ const SearchGames = () => {
         {data.game.map((game) => {
           return (
             <NavLink to={{ pathname: `/game/${game._id}`, data: data }}>
-              <Card key={game._id} border="dark" className="text-light p-1 m-2 card-equality card-hover">
+              <Card
+                key={game._id}
+                border="dark"
+                className="text-light p-1 m-2 card-equality card-hover"
+              >
                 {game.cover ? (
                   <Card.Img
                     src={game.cover}
@@ -25,8 +29,12 @@ const SearchGames = () => {
                     style={{}}
                     className="card-image-size"
                   />
-                ) : <div>Image Not Available</div>}
-                <Card.Title className="text-center pt-1">{game.gameName}</Card.Title>
+                ) : (
+                  <div>Image Not Available</div>
+                )}
+                <Card.Title className="text-center pt-1">
+                  {game.gameName}
+                </Card.Title>
               </Card>
             </NavLink>
           );
