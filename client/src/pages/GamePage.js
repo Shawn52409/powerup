@@ -1,13 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { useQuery, useMutation } from "@apollo/react-hooks";
-import { GET_ME, GET_ALL_GAMES, GET_ONE_GAME } from "../utils/queries";
-import { Container, CardColumns, Card, Row, Button } from "react-bootstrap";
+import { useQuery } from "@apollo/react-hooks";
+import { GET_ONE_GAME } from "../utils/queries";
+import { Container, Row, Button } from "react-bootstrap";
 import Auth from "../utils/auth";
 
 const GamePage = () => {
   const { _id: gameParam } = useParams();
-  const { loading, data, error } = useQuery(GET_ONE_GAME, {
+  const { data } = useQuery(GET_ONE_GAME, {
     variables: { _id: gameParam },
   });
 
@@ -51,7 +51,11 @@ const GamePage = () => {
     <Container>
       <Row>
         <div className="col-md-6">
-          <img className="container-fluid" src={data.getOneGame.cover}></img>
+          <img
+            className="container-fluid"
+            src={data.getOneGame.cover}
+            alt="Unavaible"
+          ></img>
         </div>
         <div className="col-md-6">
           <div className="card title">
