@@ -1,12 +1,29 @@
 [
     {
         "username": "Mario",
-        "email": "mario@mushroomkingdom.com",
-        "password": "123456"
+        "email": "mario@mario.com",
+        "password": "123456"        
     },
     {
         "username": "Shawn",
         "email": "shawnsmm@gmail.com",
-        "password": "123456"
+        "password": "123456",
+        "savedGames": [
+            {
+                "_id": "61e3723c39d232707c775c60",
+                "gameName": "Mortal Kombat II",
+                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y22.png"
+            },
+            {
+                "_id": "61e3723c39d232707c775c63",
+                "gameName": "Batman: Arkham City",
+                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voh.png"
+            },
+            {
+                "_id": "61e3723c39d232707c775c64",
+                "gameName": "ToeJam & Earl",
+                "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rpb.png"
+            }
+        ]
     }
 ]
