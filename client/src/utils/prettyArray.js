@@ -1,5 +1,3 @@
-import React from "react";
-
 class ArrayHelpers{
     printArray(x){
         let results = x[0];

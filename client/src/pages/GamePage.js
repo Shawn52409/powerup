@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { SAVE_GAME } from '../utils/mutations';
-import { GET_ME, GET_ONE_GAME } from "../utils/queries";
+import { GET_ME, GET_ONE_GAME, GET_ALL_GAMES } from "../utils/queries";
 import { Container, Row, Button } from "react-bootstrap";
 import Auth from "../utils/auth";
 import PrettyArray from "../utils/prettyArray";
