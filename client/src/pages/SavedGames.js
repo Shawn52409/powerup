@@ -4,8 +4,6 @@ import { GET_ME } from "../utils/queries";
 import { NavLink } from "react-router-dom";
 import { Container, Card } from "react-bootstrap";
 
-
-
 const SavedGames = () => {
   const { data } = useQuery(GET_ME);
   const userData = data?.me || {};
@@ -20,39 +18,41 @@ const SavedGames = () => {
   }
   console.log(userData);
   return (
-  <Container fluid className="mt-4 justify-content-center">
-    <h1 className="text-center">
-      Welcome {userData.username}! You have {userData.gameCount} games saved!
-    </h1>
-    <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
-      {userData.savedGames.map((savedGames) => {
-      return (
-        <NavLink to={{ pathname: `/game/${savedGames._id}`, userData: userData }}>
-          <Card
-            key={savedGames._id}
-            border="dark"
-            className="text-light p-1 m-2 card-equality card-hover"
+    <Container fluid className="mt-4 justify-content-center">
+      <h1 className="text-center">
+        Welcome {userData.username}! You have {userData.gameCount} games saved!
+      </h1>
+      <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
+        {userData.savedGames.map((savedGames) => {
+          return (
+            <NavLink
+              key={savedGames._id}
+              to={{ pathname: `/game/${savedGames._id}`, userData: userData }}
             >
-            {savedGames.cover ? (
-            <Card.Img
-            src={savedGames.cover}
-            alt={`The cover for ${savedGames.gameName}`}
-            variant="top"
-            style={{}}
-            className="card-image-size"
-            />
-            ) : (
-            <div>Image Not Available</div>
-            )}
-            <Card.Title className="text-center pt-1">
-            {savedGames.gameName}
-            </Card.Title>
-          </Card>
-        </NavLink>
-        );
-      })}
-    </div>
-  </Container>
+              <Card
+                border="dark"
+                className="text-light p-1 m-2 card-equality card-hover"
+              >
+                {savedGames.cover ? (
+                  <Card.Img
+                    src={savedGames.cover}
+                    alt={`The cover for ${savedGames.gameName}`}
+                    variant="top"
+                    style={{}}
+                    className="card-image-size"
+                  />
+                ) : (
+                  <div>Image Not Available</div>
+                )}
+                <Card.Title className="text-center pt-1">
+                  {savedGames.gameName}
+                </Card.Title>
+              </Card>
+            </NavLink>
+          );
+        })}
+      </div>
+    </Container>
   );
 };
 

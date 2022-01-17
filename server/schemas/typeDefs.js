@@ -21,7 +21,7 @@ const typeDefs = gql`
   type Query {
     me: User
     game: [Game]
-    getOneGame(_id:String): Game
+    getOneGame(_id: String): Game
   }
   type Auth {
     token: ID!
@@ -31,7 +31,7 @@ const typeDefs = gql`
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    saveGame(gameId: String!): User
+    saveGame(gameId: String!, gameName: String!, cover: String!): User
   }
 `;
 

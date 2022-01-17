@@ -15,9 +15,11 @@ const SearchGames = () => {
       <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
         {data.game.map((game) => {
           return (
-            <NavLink to={{ pathname: `/game/${game._id}`, data: data }}>
+            <NavLink
+              key={game._id}
+              to={{ pathname: `/game/${game._id}`, data: data }}
+            >
               <Card
-                key={game._id}
                 border="dark"
                 className="text-light p-1 m-2 card-equality card-hover"
               >
