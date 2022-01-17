@@ -8,7 +8,7 @@ const resolvers = {
       if (context.user) {
         const userData = await User.findOne({ _id: context.user._id }).select(
           "-__v -password"
-        );
+        ).populate('savedGames')
         return userData;
         // console.log(userData)
         // const savedGames = await Game.find({
@@ -47,12 +47,12 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
-    saveGame: async (parent, { gameId, gameName, cover }, context) => {
-      // console.log(gameId);
+    saveGame: async (parent, { gameId }, context) => {
+      console.log(gameId);
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { savedGames: gameId, gameName, cover } },
+          { $addToSet: { savedGames: gameId} },
           { returnNewDocument: true }
         );
         const savedGames = await Game.find({
