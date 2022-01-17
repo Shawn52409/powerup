@@ -24,7 +24,7 @@ const resolvers = {
       return allGames;
     },
     getOneGame: async (parent, { _id }) => {
-      console.log(_id)
+      console.log(_id);
       return await Game.findOne({ _id: _id });
     },
   },
@@ -47,19 +47,19 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
-    saveGame: async (parent, { gameId }, context) => {
+    saveGame: async (parent, { gameId, gameName, cover }, context) => {
       // console.log(gameId);
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { savedGames: gameId } },
-          { new: true }          
+          { $addToSet: { savedGames: gameId, gameName, cover } },
+          { returnNewDocument: true }
         );
         const savedGames = await Game.find({
-          _id: {$in: updatedUser.savedGames}
-        })
+          _id: { $in: updatedUser.savedGames },
+        });
         console.log(updatedUser);
-        return {...updatedUser, savedGames};
+        return { ...updatedUser, savedGames };
       }
       throw new AuthenticationError("You need to be logged in!");
     },
