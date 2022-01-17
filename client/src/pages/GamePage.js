@@ -14,13 +14,18 @@ const GamePage = () => {
     variables: { _id: gameParam },
   });
 
+  const [saveGame, loading] = useMutation(SAVE_GAME)
+
   if (!data) {
     return <div>Loading...</div>;
   }
 
-  function buttonclick() {
+  async function buttonclick() {
     console.log(data.getOneGame._id);
     console.log(userData);
+    const userSavedInfo = await saveGame({ variables: {gameId: data.getOneGame._id} });
+    console.log(userSavedInfo);
+    window.location.assign('/mygames')
   }
 
   return (
