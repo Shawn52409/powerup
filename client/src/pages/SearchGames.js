@@ -6,8 +6,7 @@ import { Container, Card } from "react-bootstrap";
 
 const SearchGames = () => {
   const { loading, data, error } = useQuery(GET_ALL_GAMES);
-  console.log(error, loading, data);
-  if (loading) return <div>this page is loading!!!!!!!!!!!</div>;
+  if (loading) return <div className="text-center"><b>This page is loading!</b></div>;
 
   if (error) return <div>something went wrong</div>;
   return (
@@ -42,7 +41,6 @@ const SearchGames = () => {
           );
         })}
       </div>
-      {/* </Row> */}
     </Container>
   );
 };

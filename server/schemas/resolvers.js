@@ -10,17 +10,11 @@ const resolvers = {
           "-__v -password"
         ).populate('savedGames')
         return userData;
-        // console.log(userData)
-        // const savedGames = await Game.find({
-        //   _id: {$in: userData.savedGames}
-        // })
-        // return {...userData, savedGames};
       }
       throw new AuthenticationError("Not logged in");
     },
     game: async (parent, args, context) => {
       const allGames = await Game.find({});
-      // console.log(allGames);
       return allGames;
     },
     getOneGame: async (parent, { _id }) => {

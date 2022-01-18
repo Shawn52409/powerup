@@ -2,29 +2,25 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { SAVE_GAME } from "../utils/mutations";
-import { GET_ME, GET_ONE_GAME, GET_ALL_GAMES } from "../utils/queries";
+import { GET_ONE_GAME} from "../utils/queries";
 import { Container, Row, Button } from "react-bootstrap";
 import Auth from "../utils/auth";
 import PrettyArray from "../utils/prettyArray";
 
 const GamePage = () => {
   const { _id: gameParam } = useParams();
-  const { userData } = useQuery(GET_ME);
   const { data } = useQuery(GET_ONE_GAME, {
     variables: { _id: gameParam },
   });
 
-  const [saveGame, loading] = useMutation(SAVE_GAME)
+  const [saveGame] = useMutation(SAVE_GAME)
 
   if (!data) {
-    return <div>Loading...</div>;
+    return <div className="text-center"><b>This page is loading!</b></div>;
   }
 
   async function buttonclick() {
-    console.log(data.getOneGame._id);
-    console.log(userData);
     const userSavedInfo = await saveGame({ variables: {gameId: data.getOneGame._id} });
-    console.log(userSavedInfo);
     window.location.assign('/mygames')
   }
 

@@ -7,7 +7,6 @@ import { Container, Card } from "react-bootstrap";
 const SavedGames = () => {
   const { data } = useQuery(GET_ME);
   const userData = data?.me || {};
-  // console.log(userData);
 
   if (!userData?.username) {
     return (
@@ -16,7 +15,6 @@ const SavedGames = () => {
       </h1>
     );
   }
-  console.log(userData);
   return (
     <Container fluid className="mt-4 justify-content-center">
       <h1 className="text-center">
