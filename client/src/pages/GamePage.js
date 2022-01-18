@@ -35,7 +35,7 @@ const GamePage = () => {
           ></img>
         </div>
         <div className="col-md-6">
-          <div className="card title px-2 bg-light">
+          <div className="card title px-2 bg-blue">
             <h1 className="text-center">{data.getOneGame.gameName}</h1>
             <h2 className="text-center">{data.getOneGame.year}</h2>
             <p className="">
@@ -49,7 +49,7 @@ const GamePage = () => {
               <b>Description:</b> {data.getOneGame.description}
             </p>
             {Auth.loggedIn() && (
-              <Button onClick={buttonclick}> Save Game</Button>
+              <Button className='mb-2' onClick={buttonclick}> Save Game</Button>
             )}
           </div>
         </div>
