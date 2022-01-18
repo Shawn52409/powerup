@@ -1,6 +1,5 @@
 const { Schema, model } = require('mongoose');
 
-// const { Schema } = mongoose;
 
 const gameSchema = new Schema({
     gameName: {
