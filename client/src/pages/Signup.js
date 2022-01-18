@@ -26,13 +26,6 @@ const Signup = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-    // check if form has everything (as per react-bootstrap docs)
-    // const form = event.currentTarget;
-    // if (form.checkValidity() === false) {
-    //   event.preventDefault();
-    //   event.stopPropagation();
-    // }
-
     try {
       const { data } = await addUser({
         variables: { ...userFormData },

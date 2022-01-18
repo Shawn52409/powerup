@@ -6,8 +6,7 @@ import { Container, Card } from "react-bootstrap";
 
 const SearchGames = () => {
   const { loading, data, error } = useQuery(GET_ALL_GAMES);
-  console.log(error, loading, data);
-  if (loading) return <div>this page is loading!!!!!!!!!!!</div>;
+  if (loading) return <div className="text-center"><b>This page is loading!</b></div>;
 
   if (error) return <div>something went wrong</div>;
   return (
@@ -15,9 +14,11 @@ const SearchGames = () => {
       <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
         {data.game.map((game) => {
           return (
-            <NavLink to={{ pathname: `/game/${game._id}`, data: data }}>
+            <NavLink
+              key={game._id}
+              to={{ pathname: `/game/${game._id}`, data: data }}
+            >
               <Card
-                key={game._id}
                 border="dark"
                 className="text-light p-1 m-2 card-equality card-hover"
               >
@@ -40,7 +41,6 @@ const SearchGames = () => {
           );
         })}
       </div>
-      {/* </Row> */}
     </Container>
   );
 };

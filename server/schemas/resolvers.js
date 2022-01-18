@@ -8,23 +8,17 @@ const resolvers = {
       if (context.user) {
         const userData = await User.findOne({ _id: context.user._id }).select(
           "-__v -password"
-        );
+        ).populate('savedGames')
         return userData;
-        // console.log(userData)
-        // const savedGames = await Game.find({
-        //   _id: {$in: userData.savedGames}
-        // })
-        // return {...userData, savedGames};
       }
       throw new AuthenticationError("Not logged in");
     },
     game: async (parent, args, context) => {
       const allGames = await Game.find({});
-      // console.log(allGames);
       return allGames;
     },
     getOneGame: async (parent, { _id }) => {
-      console.log(_id)
+      console.log(_id);
       return await Game.findOne({ _id: _id });
     },
   },
@@ -48,18 +42,18 @@ const resolvers = {
       return { token, user };
     },
     saveGame: async (parent, { gameId }, context) => {
-      // console.log(gameId);
+      console.log(gameId);
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { savedGames: gameId } },
-          { new: true }          
+          { $addToSet: { savedGames: gameId} },
+          { returnNewDocument: true }
         );
         const savedGames = await Game.find({
-          _id: {$in: updatedUser.savedGames}
-        })
+          _id: { $in: updatedUser.savedGames },
+        });
         console.log(updatedUser);
-        return {...updatedUser, savedGames};
+        return { ...updatedUser, savedGames };
       }
       throw new AuthenticationError("You need to be logged in!");
     },

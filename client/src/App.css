@@ -65,6 +65,10 @@
   background: linear-gradient(180deg, #0001FC 0%, #0f0fc7 80%,#1e1e9a 100%);
 }
 
+.bg-blue {
+  background-color: rgba(66, 170, 255, 0.534);
+}
+
 .card-image-size{
   max-height: 15rem;
   min-height: auto;
