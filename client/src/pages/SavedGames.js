@@ -10,9 +10,14 @@ const SavedGames = () => {
 
   if (!userData?.username) {
     return (
-      <h1 className="text-center">
-        You need to be logged in to see this page!
-      </h1>
+      <div>
+        <h1 className="text-center mt-4">
+          Please Insert Coins to Play
+        </h1>
+        <p className="text-center">
+          (Login Noob!)
+        </p>
+      </div>
     );
   }
   return (

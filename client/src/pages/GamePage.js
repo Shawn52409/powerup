@@ -25,7 +25,7 @@ const GamePage = () => {
   }
 
   return (
-    <Container>
+    <Container className="mt-5">
       <Row>
         <div className="col-md-6">
           <img
@@ -35,7 +35,7 @@ const GamePage = () => {
           ></img>
         </div>
         <div className="col-md-6">
-          <div className="card title">
+          <div className="card title px-2 bg-light">
             <h1 className="text-center">{data.getOneGame.gameName}</h1>
             <h2 className="text-center">{data.getOneGame.year}</h2>
             <p className="">
