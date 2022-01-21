@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery, useMutation } from "@apollo/react-hooks";
-import { SAVE_GAME } from "../utils/mutations";
+import { SAVE_GAME, DELETE_GAME } from "../utils/mutations";
 import { GET_ONE_GAME} from "../utils/queries";
 import { Container, Row, Button } from "react-bootstrap";
 import Auth from "../utils/auth";
@@ -14,14 +14,19 @@ const GamePage = () => {
   });
 
   const [saveGame] = useMutation(SAVE_GAME)
+  const [deleteGame] = useMutation(DELETE_GAME)
 
   if (!data) {
     return <div className="text-center"><b>This page is loading!</b></div>;
   }
 
-  async function buttonclick() {
+  async function saveButtonClick() {
     const userSavedInfo = await saveGame({ variables: {gameId: data.getOneGame._id} });
     window.location.assign('/mygames')
+  }
+  async function deleteButtonClick() {
+    const userSavedInfo = await deleteGame({ variables: {gameId: data.getOneGame._id} });
+    window.location.assign('/')
   }
 
   return (
@@ -49,7 +54,10 @@ const GamePage = () => {
               <b>Description:</b> {data.getOneGame.description}
             </p>
             {Auth.loggedIn() && (
-              <Button className='mb-2' onClick={buttonclick}> Save Game</Button>
+              <Button className='mb-2' onClick={saveButtonClick}> Save Game</Button>
+            )}
+            {Auth.loggedIn() && (
+              <Button className='mb-2 bg-danger' onClick={deleteButtonClick}> Delete Game</Button>
             )}
           </div>
         </div>
