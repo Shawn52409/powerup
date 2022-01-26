@@ -7,7 +7,7 @@ import invaders from "../components/space-invaders.png";
 
 const Login = () => {
   const [login, { error }] = useMutation(LOGIN_USER);
-  const [userFormData, setUserFormData] = useState({ email: "", password: "" });
+  const [userFormData, setUserFormData] = useState({ username: "", password: "" });
   const [validated] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
@@ -34,7 +34,7 @@ const Login = () => {
 
     setUserFormData({
       username: "",
-      email: "",
+      username: "",
       password: "",
     });
   };
@@ -56,17 +56,17 @@ const Login = () => {
           Something went wrong with your login credentials!
         </Alert>
         <Form.Group>
-          <Form.Label htmlFor="email">Email</Form.Label>
+          <Form.Label htmlFor="username">Username</Form.Label>
           <Form.Control
             type="text"
-            placeholder="Your email"
-            name="email"
+            placeholder="Your username"
+            name="username"
             onChange={handleInputChange}
-            value={userFormData.email}
+            value={userFormData.username}
             required
           />
           <Form.Control.Feedback type="invalid">
-            Email is required!
+            Username is required!
           </Form.Control.Feedback>
         </Form.Group>
 
@@ -85,7 +85,7 @@ const Login = () => {
           </Form.Control.Feedback>
         </Form.Group>
         <Button
-          disabled={!(userFormData.email && userFormData.password)}
+          disabled={!(userFormData.username && userFormData.password)}
           type="submit"
           variant="success"
         >
