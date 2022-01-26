@@ -30,7 +30,7 @@ const GamePage = () => {
   }
 
   return (
-    <Container className="mt-5">
+    <Container className="mt-4 mb-5">
       <Row>
         <div className="col-md-6">
           <img

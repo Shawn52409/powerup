@@ -116,7 +116,7 @@ const Signup = () => {
         </Button>
         {error && <div>Sign up failed</div>}
       </Form>
-      <div className="container-fluid justify-content-center d-flex">
+      <div className="container-fluid justify-content-center d-flex mb-5">
         <img
           className="text-center border-danger border rounded-pill"
           src={streetFighter}
