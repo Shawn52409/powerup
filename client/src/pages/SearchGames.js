@@ -10,7 +10,7 @@ const SearchGames = () => {
 
   if (error) return <div>something went wrong</div>;
   return (
-    <Container fluid className="mt-4 justify-content-center">
+    <Container fluid className="mt-4 mb-5 justify-content-center">
       <div className="justify-content-center row rows-cols-sm-1 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3">
         {data.game.map((game) => {
           return (
