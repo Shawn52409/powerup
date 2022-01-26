@@ -51,7 +51,7 @@ I can collaborate with other video game fans with similar interests
 
 # Screenshots
 Homepage
-![image](assets/powerup_ss.png)
+![image](assets/powerup_gif.gif)
 
 
 
