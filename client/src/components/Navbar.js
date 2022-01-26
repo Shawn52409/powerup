@@ -5,7 +5,7 @@ import auth from "../utils/auth";
 
 const Nav = () => {
   return (
-    <div className="powerup-font container-fluid bg-danger justify-content-center align-items-center py-2">
+    <div className="navBar powerup-font container-fluid justify-content-center align-items-center py-2">
       <ul className="text-light navbar-custom nav justify-content-center py-2">
         <li className="nav-item">
           <NavLink

@@ -10,6 +10,7 @@ import "./App.css";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import GamePage from "./pages/GamePage";
+import Footer from "./components/Footer";
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -38,6 +39,7 @@ function App() {
             <Route exact path="/game/:_id" component={GamePage} />
             <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
           </Switch>
+          <Footer />
         </>
       </Router>
     </ApolloProvider>
